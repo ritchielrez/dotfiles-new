@@ -1,5 +1,5 @@
 # Dotfiles
-## ⚠️ *Warning**, this is my new dotfiles repository, not all the configs have been move over from the old one, it'll take some time.
+## ⚠️**Warning**, this is my new dotfiles repository, not all the configs have been move over from the old one, it'll take some time.
 
 
 ## What is dotfiles?
