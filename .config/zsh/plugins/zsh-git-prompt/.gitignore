@@ -1,0 +1,15 @@
+.coverage
+.python-version
+
+# Directories
+.cache/
+
+# haskell
+haskell/stack.yaml.lock
+haskell/.bin
+**/.stack-work
+
+# python
+python/.tox
+**/__pycache__
+.pytest_cache
