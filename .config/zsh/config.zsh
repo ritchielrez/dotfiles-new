@@ -52,7 +52,6 @@ source ~/.config/zsh/plugins/gitstatus/gitstatus.prompt.zsh
 # Set powerlevel10k prompt
 source ~/.config/zsh/themes/powerlevel10k/powerlevel10k.zsh-theme
 
-
 # fpath+=$HOME/.zsh/pure
 
 source ~/.config/zsh/autostart.zsh
@@ -61,4 +60,3 @@ source ~/.config/zsh/autostart.zsh
 # prompt pure
 #
 # source ~/.config/zsh/themes/zsh-prompt.zsh-theme
-#
