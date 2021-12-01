@@ -14,6 +14,9 @@ export PATH="~/.emacs.d/bin:$PATH"
 export PATH="/root/.local/bin:$PATH"
 export PATH="$PATH:/usr/local/go/bin"
 
+export SPOTIPY_CLIENT_ID="ddcb83352c5941a690a0ac72dbefdad8"
+export SPOTIPY_CLIENT_SECRET="5105b5495db64626bc3b0f2890248790"
+
 export STARSHIP_CACHE=~/.starship/cache
 
 export EDITOR="nvim"
