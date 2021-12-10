@@ -30,7 +30,7 @@ alias md="mkdir"
 
 alias spicetify="~/spicetify-cli/spicetify"
 
-alias gs="git status | lolcat"
+alias gs="git status"
 alias ga="git add ."
 
 function gc()
