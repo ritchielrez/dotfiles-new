@@ -28,13 +28,6 @@ HISTSIZE=10000
 SAVEHIST=1000
 setopt SHARE_HISTORY
 
-autoload -U up-line-or-beginning-search
-autoload -U down-line-or-beginning-search
-zle -N up-line-or-beginning-search
-zle -N down-line-or-beginning-search
-bindkey "^[[A" up-line-or-beginning-search # Up
-bindkey "^[[B" down-line-or-beginning-search # Down
-
 # bindkey '^[[A' up-line-or-search
 # bindkey '^[[B' down-line-or-search
 
@@ -71,3 +64,9 @@ source ~/.config/zsh/autostart.zsh
 # prompt pure
 #
 # source ~/.config/zsh/themes/zsh-prompt.zsh-theme
+
+# I want better search for my history of commands
+source ~/.config/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
