@@ -80,8 +80,8 @@ function ex ()
 
 alias todo="nvim ~/.config/zsh/todo.zsh"
 
-alias ls="exa --icons --git"
-alias ll="exa -la --icons --git"
+alias ls="lsd"
+alias ll="lsd -la"
 
 # Youtube-dl: a command line program to download youtube video orf just audio
 alias yt="youtube-dl"
