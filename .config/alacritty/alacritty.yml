@@ -1,5 +1,6 @@
 # Window Customization
 window:
+  opacity: 0.95
   dimensions:
     columns: 100
     lines: 20
@@ -10,21 +11,20 @@ window:
 scrolling:
   history: 10000
   multiplier: 3
-background_opacity: .95
 window.dynamic_title: true
 
 # Font Customization
 font:
   normal:
-    family: FiraMono Nerd Font
+    family: UbuntuMono Nerd Font
     style: Regular
   bold:
-    family: FiraMono Nerd Font
+    family: UbuntuMono Nerd Font
     style: Bold
   italic:
-    family: FiraMono Nerd Font 
+    family: UbuntuMono Nerd Font 
     style: Italic
-  size: 12
+  size: 16
   offset:
     x: 0
     y: 0
