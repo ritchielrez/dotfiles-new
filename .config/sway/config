@@ -238,3 +238,6 @@ exec_always {
     gsettings set $gnome-schema font-name 'Ubuntu 13'
     # gsettings set $gnome-schema text-scaling-factor 1.25
 }
+
+# Take screenshot
+bindsym $mod+Shift+s exec_always grim 
