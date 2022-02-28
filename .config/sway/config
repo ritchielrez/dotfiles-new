@@ -239,5 +239,8 @@ exec_always {
     # gsettings set $gnome-schema text-scaling-factor 1.25
 }
 
+# Notfication daemon
+exec_always dunst &
+
 # Take screenshot
-bindsym $mod+Shift+s exec_always grim 
+bindsym $mod+Shift+s exec $HOME/.scripts/wayshot 
