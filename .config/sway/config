@@ -60,6 +60,7 @@ font pango:Ubuntu 14
 input type:touchpad {
     tap enabled
     natural_scroll enabled
+    scroll_factor 0.5
 }
 
 # You can get the names of your inputs by running: swaymsg -t get_inputs
@@ -231,11 +232,14 @@ default_border none
 
 set $gnome-schema org.gnome.desktop.interface
 
+seat seat0 xcursor_theme 'Bibata-Modern-Ice' 36
+
 exec_always {
     gsettings set $gnome-schema gtk-theme 'Gruvbox-Material-Dark'
     gsettings set $gnome-schema icon-theme 'Gruvbox-Material-Dark'
-    gsettings set $gnome-schema cursor-theme 'Adwaita'
-    gsettings set $gnome-schema font-name 'Ubuntu 13'
+    gsettings set $gnome-schema cursor-theme 'Bibata-Modern-Ice'
+    gsettings set $gnome-schema cursor-size '36'
+    gsettings set $gnome-schema font-name 'Ubuntu 12'
     # gsettings set $gnome-schema text-scaling-factor 1.25
 }
 
