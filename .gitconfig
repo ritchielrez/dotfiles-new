@@ -6,3 +6,5 @@
 	name = RitchielRez
 [init]
 	defaultBranch = main
+[core]
+	editor = nvim
