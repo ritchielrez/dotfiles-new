@@ -179,14 +179,46 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
+#-------------------------------------------------------------------------I3BAR
+
 bar {
         status_command i3status
+        position top
 }
 
+#-------------------------------------------------------------------ALL WINDOWS
+
 for_window [class="^.*"] border pixel 0
+
+
+#---------------------------------------------------------------FIREFOX WINDOWS
+
+for_window [class="^Firefox$" title="^Mozilla Firefox$"] floating disable
+for_window [class="^Firefox$" title=".* - Mozilla Firefox"] floating disable
+for_window [class="^Firefox$" title="Facebook call - Mozilla Firefox"] floating enable
+for_window [class="^Firefox$" title="NoScript Options"] floating enable
+for_window [class="^firefox$" title="^About Mozilla Firefox"] floating enable
+for_window [class="^Firefox$" title="^Adblock Plus.*"] floating enable
+for_window [class="^Firefox$" title="^Allowed Web Sites . Pop.ups$"] floating enable
+for_window [class="^Firefox$" title="^Cancel All Downloads\?$"] floating enable
+for_window [class="^Firefox$" title="^Clear All History$"] floating enable
+for_window [class="^Firefox$" title="^Clear all cookies and site data$"] floating enable
+for_window [class="^Firefox$" title="^Close Firefox$"] floating enable
+for_window [class="^Firefox$" title="^Create Profile Wizard$"] floating enable
+for_window [class="^Firefox$" title="^Firefox . Choose User Profile$"] floating enable
+for_window [class="^Firefox$" title="^Firefox Safe Mode$"] floating enable
+for_window [class="^Firefox$" title="^Problem loading page . Mozilla Firefox$"] floating disable
+for_window [class="^Firefox$" title="^Profiles Manager$"] floating enable
+for_window [class="^Firefox$" title="^Rename Profile$"] floating enable
+for_window [class="^Firefox$" title="^Restart Firefox$"] floating enable
+for_window [class="^Firefox$" title="^Restart with Add-ons Disabled$"] floating enable
+
+
+#------------------------------------------------------------------ZOOM WINDOWS
+
 for_window [class="^zoom$"] floating enable
 for_window [class="^zoom$" title="^Settings$"] floating enable
+
+#---------------------------------------------------------------------WALLPAPER
 
 exec_always nitrogen --restore
