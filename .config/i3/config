@@ -1,24 +1,33 @@
+#------------------ USE SUPER KEY AS THE DEFAULT AND MODIFIER KEY -------------
+
 set $mod Mod4
 
-font pango:Ubuntu Mono 12
+#------------------ USE SUPER KEY ALSO TO FLOAT A WINDOW ----------------------
 
 floating_modifier $mod
 
+#------------------------------------------------------------------DEFAULT FONTS
+
+font pango:Ubuntu Mono 12
+
+#-------------------------------------------------------------------WINDOW RULES
+
+include $HOME/.config/i3/rules.conf
+
+#---------------------------------------------------------------------WORKSPACES
+
+include $HOME/.config/i3/workspaces.conf
+
+#---------------------------------------------------------------------AUTOSTART
+
+exec_always --no-startup-id $HOME/.config/i3/autostart.sh
+
+#------------------------- DEFAULT KEYMAPS, DON'T REMOVE THEM -----------------
 bindsym $mod+s layout stacking
 bindsym $mod+Shift+w layout tabbed
 bindsym $mod+e layout toggle split
 
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
-
+#-----------------------------------------------------------------RESIZE WINDOWS
 mode "resize" {
         bindsym j resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
@@ -44,10 +53,3 @@ bindsym $mod+r mode "resize"
 #         position top
 # }
 
-#-------------------------------------------------------------------WINDOW RULES
-
-include $HOME/.config/i3/rules.conf
-
-#---------------------------------------------------------------------AUTOSTART
-
-exec_always --no-startup-id $HOME/.config/i3/autostart.sh
