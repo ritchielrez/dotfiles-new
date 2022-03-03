@@ -1,0 +1,42 @@
+super + Escape
+  pkill -USR1 -x sxhkd
+
+# File manager
+super + shift + Return
+  pcmanfm
+
+# Rofi launcher
+super + d 
+  rofi -show drun -show-icons -font "UbuntuMono Nerd Font 14"
+
+# Web browser 
+super + w; {f,e}
+  {firefox, microsoft-edge-stable}
+
+# Terminal
+super + Return
+  alacritty
+
+# Screenshot
+super + shift + s
+  flameshot gui
+
+# Audio mangement
+XF86AudioRaiseVolume
+  pactl set-sink-volume 0 +10%
+
+XF86AudioLowerVolume
+  pactl set-sink-volume 0 -10%
+
+XF86AudioMute
+  pactl set-sink-mute 0 toggle
+
+# I3 keymaps
+super + {1-9}
+  i3-msg workspace {1-9}
+
+super + shift + {1-9}
+  i3-msg move container to workspace number {1-9}
+
+super + {h,j,k,k}
+  i3-msg focus {left,down,up,right}
