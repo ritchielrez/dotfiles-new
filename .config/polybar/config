@@ -65,9 +65,10 @@ module-margin-right = 1
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
 font-0 = "UbuntuMono Nerd Font:size=14;3"
+font-1 = "Weather Icons:size=14;4"
 
 modules-left = i3
-modules-center = 
+modules-center = weather
 modules-right = memory2 cpu2 date 
 
 ;separator = |
