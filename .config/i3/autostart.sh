@@ -11,4 +11,5 @@ picom &
 nitrogen --restore &
 
 # sxhkd
+killall sxhkd
 sxhkd -c $HOME/.config/i3/sxhkd/sxhkdrc &

@@ -32,11 +32,48 @@ XF86AudioMute
   pactl set-sink-mute 0 toggle
 
 # I3 keymaps
+
+# workspaces
 super + {1-9}
   i3-msg workspace {1-9}
 
 super + shift + {1-9}
   i3-msg move container to workspace number {1-9}
 
+# move and focus windows
 super + {h,j,k,l}
   i3-msg focus {left,down,up,right}
+
+super + shift + {h,j,k,l}
+  i3-msg move {left,down,up,right}
+
+super + {v,h}
+  i3-msg split {v,h}
+
+super + space
+  i3-msg focus mode_toggle
+
+super + a
+  i3-msg focus parent
+
+# different window modes
+super + f
+  i3-msg fullscreen toggle
+
+super + shift + space
+  i3-msg floating toggle
+
+# other basic i3 stuffs
+super + q
+  i3-msg kill
+
+super + shift + c 
+  i3-msg reload
+
+super + shift + r
+  i3-msg restart
+
+super + shift + e
+  i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'
+
+

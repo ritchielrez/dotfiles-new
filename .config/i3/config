@@ -4,8 +4,6 @@ font pango:Ubuntu Mono 12
 
 floating_modifier $mod
 
-bindsym $mod+q kill
-
 bindsym $mod+s layout stacking
 bindsym $mod+Shift+w layout tabbed
 bindsym $mod+e layout toggle split
@@ -20,10 +18,6 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
-
-bindsym $mod+Shift+c reload
-bindsym $mod+Shift+r restart
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 mode "resize" {
         bindsym j resize shrink width 10 px or 10 ppt
