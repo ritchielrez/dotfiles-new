@@ -78,10 +78,10 @@ super + shift + e
 
 # scratchpads
 alt + s
-  i3run --class Spotify -- spotify 
+  i3run --summon --class Spotify -- spotify 
 
 super + p
-  i3run --class Pavucontrol -- pavucontrol
+  i3run --summon --class Pavucontrol -- pavucontrol
 
-super + alt + Return
-  i3run --title floaterm -- alacritty --title floaterm
+super + x
+  i3run --summon --title floaterm -- alacritty --title floaterm 
