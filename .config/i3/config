@@ -1,6 +1,9 @@
 ### Default modifier key is Windows
 set $mod Mod4
 
+floating_maximum_size 1920 x 1080
+floating_minimum_size 1280 x 720
+
 ### Use Windows key to move and resize floating windows
 floating_modifier $mod
 
