@@ -1,33 +1,28 @@
-#------------------ USE SUPER KEY AS THE DEFAULT AND MODIFIER KEY -------------
-
+### Default modifier key is Windows
 set $mod Mod4
 
-#------------------ USE SUPER KEY ALSO TO FLOAT A WINDOW ----------------------
-
+### Use Windows key to move and resize floating windows
 floating_modifier $mod
 
-#------------------------------------------------------------------DEFAULT FONTS
-
+### Fonts used i3wm titlebars and i3bar
 font pango:Ubuntu Mono 12
 
-#-------------------------------------------------------------------WINDOW RULES
+### Include windows rules and workspace config
 
 include $HOME/.config/i3/rules.conf
-
-#---------------------------------------------------------------------WORKSPACES
-
 include $HOME/.config/i3/workspaces.conf
 
-#---------------------------------------------------------------------AUTOSTART
-
+### Autostart
 exec_always --no-startup-id $HOME/.config/i3/autostart.sh
 
-#------------------------- DEFAULT KEYMAPS, DON'T REMOVE THEM -----------------
+### Don't remove these keymaps, otherwise i3wm crashed
+
 bindsym $mod+s layout stacking
 bindsym $mod+Shift+w layout tabbed
 bindsym $mod+e layout toggle split
 
-#-----------------------------------------------------------------RESIZE WINDOWS
+### Keymaps to resize with keychords, pretty sweet
+
 mode "resize" {
         bindsym j resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
@@ -46,10 +41,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-#-------------------------------------------------------------------------I3BAR
+### Disabled i3bar
 
 # bar {
 #         status_command i3status
 #         position top
 # }
-
