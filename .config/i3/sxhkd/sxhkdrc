@@ -38,5 +38,5 @@ super + {1-9}
 super + shift + {1-9}
   i3-msg move container to workspace number {1-9}
 
-super + {h,j,k,k}
+super + {h,j,k,l}
   i3-msg focus {left,down,up,right}
