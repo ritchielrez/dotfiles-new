@@ -75,3 +75,13 @@ super + shift + r
 
 super + shift + e
   i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'
+
+# scratchpads
+alt + s
+  i3run --class Spotify -- spotify 
+
+super + p
+  i3run --class Pavucontrol -- pavucontrol
+
+super + alt + Return
+  i3run --title floaterm -- alacritty --title floaterm
