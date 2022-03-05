@@ -18,3 +18,7 @@ autotiling &
 # sxhkd
 killall sxhkd
 sxhkd -c $HOME/.config/i3/sxhkd/sxhkdrc &
+
+# xfce power manager
+killall xfce4-power-manager
+xfce4-power-manager &
