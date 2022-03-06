@@ -17,6 +17,9 @@ alias dta='dotfiles add'
 alias dtc='dotfiles cz'
 alias dtp='dotfiles push -u origin'
 
+alias ls='lsd'
+alias ll='ls -la'
+
 # PATH varibale needed to set for local programs
 export PATH="$HOME/opts/go/bin/:$PATH"
 
