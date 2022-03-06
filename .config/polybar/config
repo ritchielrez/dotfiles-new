@@ -68,8 +68,8 @@ font-0 = "UbuntuMono Nerd Font:size=14;3"
 font-1 = "Weather Icons:size=14;4"
 
 modules-left = i3
-modules-center = weather 
-modules-right = volume pacman-updates memory2 cpu2 date 
+modules-center = 
+modules-right = weather volume pacman-updates memory2 cpu2 date 
 
 ;separator = |
 
