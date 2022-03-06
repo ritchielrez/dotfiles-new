@@ -1,10 +1,11 @@
 #!/bin/sh
 
 # compositor 
-killall picom
+killall -q picom
 picom &
 
 # polybar
+killall -q polybar
 ~/.config/polybar/launch.sh &
 
 # background 
@@ -12,13 +13,13 @@ nitrogen --restore &
 
 # fibonacci layout in i3
 # checkout https://github.com/nwg-piotr/autotiling
-killall autotiling
+killall -q autotiling
 autotiling &
 
 # sxhkd
-killall sxhkd
+killall -q sxhkd
 sxhkd -c $HOME/.config/i3/sxhkd/sxhkdrc &
 
 # xfce power manager
-killall xfce4-power-manager
+killall -q xfce4-power-manager
 xfce4-power-manager &
