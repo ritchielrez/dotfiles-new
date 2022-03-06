@@ -69,7 +69,7 @@ font-1 = "Weather Icons:size=14;4"
 
 modules-left = i3
 modules-center = weather 
-modules-right = pavolume pacman-updates memory2 cpu2 date 
+modules-right = volume pacman-updates memory2 cpu2 date 
 
 ;separator = |
 
