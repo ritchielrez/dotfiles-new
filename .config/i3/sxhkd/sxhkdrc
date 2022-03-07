@@ -7,7 +7,7 @@ super + shift + Return
 
 # Rofi launcher
 super + d 
-  rofi -show drun -show-icons -font "UbuntuMono Nerd Font 14"
+  rofi -show drun -show-icons -font "UbuntuMono Nerd Font 18"
 
 # Web browser 
 super + w; {f,e}
