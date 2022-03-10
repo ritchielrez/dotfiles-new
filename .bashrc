@@ -19,6 +19,7 @@ alias dtp='dotfiles push -u origin'
 
 # PATH varibale needed to set for local programs
 export PATH="$HOME/opts/go/bin/:$PATH"
+export PATH="/usr/local/go/bin/:$PATH"
 
 # Oh my posh, my bash prompt
 eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
