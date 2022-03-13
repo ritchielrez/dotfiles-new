@@ -1,5 +1,6 @@
 # Bindings
 map <enter> open
+map <backspace> set hidden!
 
 set previewer '~/.config/lf/scope'
 
