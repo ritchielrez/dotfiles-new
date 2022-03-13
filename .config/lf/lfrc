@@ -1,2 +1,4 @@
 # Bindings
 map <enter> open
+
+set previewer '~/.config/lf/scope'
