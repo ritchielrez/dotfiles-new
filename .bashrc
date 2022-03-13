@@ -21,6 +21,7 @@ alias dtp='dotfiles push -u origin'
 export PATH="$HOME/opts/go/bin/:$PATH"
 export PATH="$HOME/opts/:$PATH"
 export PATH="$HOME/go/bin/:$PATH"
+export PATH="$HOME/.local/bin/:$PATH"
 export PATH="/usr/local/go/bin/:$PATH"
 
 # Oh my posh, my bash prompt
