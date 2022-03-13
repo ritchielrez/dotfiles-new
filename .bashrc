@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias ll='ls -la'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
 PS1='[\u@\h \W]\$ '
 alias gs='git status'
