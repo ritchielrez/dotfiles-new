@@ -17,15 +17,15 @@ background_opacity: 0.85
 # Font Customization
 font:
   normal:
-    family: Hack Nerd Font
+    family: UbuntuMono Nerd Font
     style: Regular
   bold:
-    family: Hack Nerd Font
+    family: UbuntuMono Nerd Font
     style: Bold
   italic:
-    family: Hack Nerd Font 
+    family: UbuntuMono Nerd Font 
     style: Italic
-  size: 9
+  size: 10
   offset:
     x: 0
     y: 0
