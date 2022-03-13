@@ -22,7 +22,11 @@ export PATH="$HOME/opts/go/bin/:$PATH"
 export PATH="$HOME/opts/:$PATH"
 export PATH="$HOME/go/bin/:$PATH"
 export PATH="$HOME/.local/bin/:$PATH"
+export PATH="$HOME/.scripts/:$PATH"
 export PATH="/usr/local/go/bin/:$PATH"
+
+# lf
+alias lf="lfub"
 
 # Oh my posh, my bash prompt
 eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
