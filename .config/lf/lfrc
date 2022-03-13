@@ -2,3 +2,5 @@
 map <enter> open
 
 set previewer '~/.config/lf/scope'
+
+set icons
