@@ -18,11 +18,11 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu rofi -show drun -show-icons -font 'UbuntuMono Nerd Font 17'
+set $menu rofi -show drun -show-icons -font 'CaskaydiaCove Nerd Font 17'
 
 ### Output configuration
 #
-output * bg /home/ritux/repos/frenzy-wallpapers/Gruv/platform.jpg fill
+output * bg /home/ritux/Documents/wallpapers/Gruv/platform.jpg fill
 #
 # Example configuration:
 #
@@ -31,7 +31,7 @@ output * bg /home/ritux/repos/frenzy-wallpapers/Gruv/platform.jpg fill
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
 ### Font
-font pango:Ubuntu 14
+font pango:CaskaydiaCove Nerd Font 14
 
 ### Idle configuration
 #
@@ -210,7 +210,7 @@ bindsym $mod+r mode "resize"
 # Read `man 5 sway-bar` for more information about this section.
 bar {
     position top
-    height 30
+    height 25
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
@@ -239,7 +239,7 @@ exec_always {
     gsettings set $gnome-schema icon-theme 'Gruvbox-Material-Dark'
     gsettings set $gnome-schema cursor-theme 'Bibata-Modern-Ice'
     gsettings set $gnome-schema cursor-size '24'
-    gsettings set $gnome-schema font-name 'Ubuntu 12'
+    gsettings set $gnome-schema font-name 'CaskaydiaCove Nerd Font 11'
     # gsettings set $gnome-schema text-scaling-factor 1.25
 }
 
