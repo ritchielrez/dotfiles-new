@@ -245,3 +245,6 @@ exec_always {
 
 # Notfication daemon
 exec_always dunst &
+
+# Spiral layout for sway/i3
+exec_always autotiling &
