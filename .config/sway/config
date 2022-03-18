@@ -31,7 +31,7 @@ output * bg /home/ritux/Documents/wallpapers/Gruv/platform.jpg fill
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
 ### Font
-font pango:CaskaydiaCove Nerd Font 14
+font pango:CaskaydiaCove Nerd Font 13
 
 ### Idle configuration
 #
@@ -245,6 +245,3 @@ exec_always {
 
 # Notfication daemon
 exec_always dunst &
-
-# Take screenshot
-bindsym $mod+Shift+s exec $HOME/.scripts/wayshot 
