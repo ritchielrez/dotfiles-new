@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Default bash prompt
 PS1='[\u@\h \W]\$ '
 
 alias ls='ls --color=auto'
