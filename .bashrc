@@ -213,3 +213,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # bat
 export BAT_THEME=gruvbox-dark
+
+# set EDITOR as neovim
+export EDITOR="nvim"
