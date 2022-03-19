@@ -5,10 +5,11 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+PS1='[\u@\h \W]\$ '
+
 alias ls='ls --color=auto'
 alias ll='ls -la'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
-PS1='[\u@\h \W]\$ '
 alias gs='git status'
 alias ga='git add'
 alias gp='git push -u origin'
@@ -216,3 +217,6 @@ export BAT_THEME=gruvbox-dark
 
 # set EDITOR as neovim
 export EDITOR="nvim"
+
+# Fish shell
+fish
