@@ -21,9 +21,9 @@ set $term alacritty
 set $menu rofi -show drun -show-icons -font 'CaskaydiaCove Nerd Font 17'
 
 ### Output configuration
-#
+
 output * bg /home/ritux/Documents/wallpapers/Gruv/platform.jpg fill
-#
+
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
@@ -208,21 +208,21 @@ bindsym $mod+r mode "resize"
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
-bar {
-    position top
-    height 25
-
-    # When the status_command prints a new line to stdout, swaybar updates.
-    # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
-
-    colors {
-        statusline #ebdbb2
-        background #32302f
-        inactive_workspace #32302f #32302f #a89984
-	      focused_workspace #32302f #d65d0e #282828
-    }
-}
+# bar {
+#     position top
+#     height 25
+#
+#     # When the status_command prints a new line to stdout, swaybar updates.
+#     # The default just shows the current date and time.
+#     status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
+#
+#     colors {
+#         statusline #ebdbb2
+#         background #32302f
+#         inactive_workspace #32302f #32302f #a89984
+# 	      focused_workspace #32302f #d65d0e #282828
+#     }
+# }
 
 include /etc/sway/config.d/*
 
@@ -232,12 +232,12 @@ default_border none
 
 set $gnome-schema org.gnome.desktop.interface
 
-seat seat0 xcursor_theme 'Bibata-Modern-Ice' 24
+seat seat0 xcursor_theme 'Bibata-Rainbow-Modern' 24
 
 exec_always {
     gsettings set $gnome-schema gtk-theme 'Gruvbox-Material-Dark'
     gsettings set $gnome-schema icon-theme 'Gruvbox-Material-Dark'
-    gsettings set $gnome-schema cursor-theme 'Bibata-Modern-Ice'
+    gsettings set $gnome-schema cursor-theme 'Bibata-Rainbow-Modern'
     gsettings set $gnome-schema cursor-size '24'
     gsettings set $gnome-schema font-name 'CaskaydiaCove Nerd Font 11'
     # gsettings set $gnome-schema text-scaling-factor 1.25
