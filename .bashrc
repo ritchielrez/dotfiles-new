@@ -221,3 +221,4 @@ export EDITOR="nvim"
 
 # Fish shell
 fish
+. "$HOME/.cargo/env"

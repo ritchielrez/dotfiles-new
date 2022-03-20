@@ -15,6 +15,9 @@ alias dta='dotfiles add'
 alias dtc='dotfiles cz'
 alias dtp='dotfiles push -u origin'
 
+# Path
+export PATH="$HOME/.cargo/bin/:$PATH"
+
 # theme_gruvbox dark medium
 
 # Prompt
