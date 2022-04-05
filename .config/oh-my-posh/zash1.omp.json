@@ -6,48 +6,45 @@
       "segments": [
         {
           "foreground": "#E36464",
-          "properties": {
-            "template": "@{{ .UserName }}"
-          },
           "style": "plain",
+          "template": "@{{ .UserName }}",
           "type": "session"
         },
         {
           "foreground": "#56B6C2",
           "properties": {
-            "style": "folder",
-            "template": " {{ .Path }}"
+            "style": "folder"
           },
           "style": "plain",
+          "template": " {{ .Path }}",
           "type": "path"
         },
         {
           "foreground": "#b8bb26",
           "properties": {
-            "branch_icon": "",
-            "template": " \ue725 {{ .HEAD }}"
+            "branch_icon": ""
           },
           "style": "plain",
+          "template": " \ue725 {{ .HEAD }}",
           "type": "git"
         },
-	{
-		"type": "exit",
-		"style": "diamond",
-		"foreground": "#8ec07c",
-		"foreground_templates": [
-			"{{ if gt .Code 0 }}#fb4934{{ end }}"
-		],
-		"leading_diamond": " ",
-		"trailing_diamond": "",
-		"properties": {
-			"always_enabled": true,
-			"template": "\uf0a9 "
-		}
-	}
+        {
+          "foreground": "#8ec07c",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#fb4934{{ end }}"
+          ],
+          "leading_diamond": " ",
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "diamond",
+          "template": "\uf0a9 ",
+          "type": "exit"
+        }
       ],
       "type": "prompt"
     }
   ],
   "final_space": true,
-  "version": 1
+  "version": 2
 }

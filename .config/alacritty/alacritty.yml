@@ -1,9 +1,9 @@
 # Window Customization
 window:
-  opacity: 0.8
+#  opacity: 0.8
   dimensions:
     columns: 200
-    lines: 40
+    lines: 60
   padding:
     x: 5
     y: 5
@@ -12,20 +12,20 @@ scrolling:
   history: 10000
   multiplier: 3
 window.dynamic_title: true
-# background_opacity: 0.85
+background_opacity: 0.9
 
 # Font Customization
 font:
   normal:
-    family: CaskaydiaCove Nerd Font
+    family: UbuntuMono Nerd Font
     style: Regular
   bold:
-    family: CaskaydiaCove Nerd Font
+    family: UbuntuMono Nerd Font
     style: Bold
   italic:
-    family: CaskaydiaCove Nerd Font 
+    family: UbuntuMono Nerd Font
     style: Italic
-  size: 14
+  size: 10
   offset:
     x: 0
     y: 0
