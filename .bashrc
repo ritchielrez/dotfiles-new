@@ -20,7 +20,7 @@ alias dta='dotfiles add'
 alias dtc='dotfiles cz'
 alias dtp='dotfiles push -u origin'
 
-# PATH varibale needed to set for local programs
+# PATH variable needed to set for local programs
 export PATH="$HOME/opts/go/bin/:$PATH"
 export PATH="$HOME/opts/:$PATH"
 export PATH="$HOME/go/bin/:$PATH"
@@ -220,5 +220,7 @@ export BAT_THEME=gruvbox-dark
 export EDITOR="nvim"
 
 # Fish shell
-fish
+# fish
+
+# cargo enviroment variables
 . "$HOME/.cargo/env"
