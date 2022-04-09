@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+EXE=$(which go)
+
+DEP="wget"
+
+sudo apt install $DEP -y
+
+if test -f "$EXE"; then
+  ./go_installer && rm $HOME/.bash_profile
+else 
+  wget https://get.golang.org/$(uname)/go_installer && chmod a+x go_installer && ./go_installer && rm $HOME/.bash_profile
+fi
