@@ -224,3 +224,8 @@ export EDITOR="nvim"
 
 # cargo enviroment variables
 . "$HOME/.cargo/env"
+
+# Golang
+export PATH=$PATH:/home/ritux/.go/bin
+export GOPATH=/home/ritux/go
+export PATH=$PATH:/home/ritux/go/bin
