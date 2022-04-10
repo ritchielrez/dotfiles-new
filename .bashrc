@@ -20,14 +20,6 @@ alias dta='dotfiles add'
 alias dtc='dotfiles cz'
 alias dtp='dotfiles push -u origin'
 
-# PATH variable needed to set for local programs
-export PATH="$HOME/opts/go/bin/:$PATH"
-export PATH="$HOME/opts/:$PATH"
-export PATH="$HOME/go/bin/:$PATH"
-export PATH="$HOME/.local/bin/:$PATH"
-export PATH="$HOME/.scripts/:$PATH"
-export PATH="/usr/local/go/bin/:$PATH"
-
 # lf
 alias lf="lfub"
 
@@ -233,3 +225,15 @@ export PATH=$PATH:/home/ritux/go/bin
 # fnm
 export PATH=/home/ritux/.fnm:$PATH
 eval "`fnm env`"
+
+# PATH variable needed to set for local programs
+export PATH="~/opts/:$PATH"
+
+export PATH="~/opts/go/bin/:$PATH"
+export PATH="~/go/bin/:$PATH"
+export PATH="/usr/local/go/bin/:$PATH"
+
+export PATH="~/.local/bin/:$PATH"
+export PATH="~/.scripts/:$PATH"
+
+export PATH="~/opts/node/bin:$PATH"
