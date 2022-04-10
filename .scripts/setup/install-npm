@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+EXE=$(which npm)
+
+if test -f "$EXE"; then
+  sudo apt update 
+else 
+  pushd $HOME/opts/
+  wget https://nodejs.org/dist/v16.14.2/node-v16.14.2-linux-x64.tar.xz
+  tar xvf node-v16.14.2-linux-x64.tar.xz
+  mv node-v16.14.2-linux-x64 node
+  popd
+fi
