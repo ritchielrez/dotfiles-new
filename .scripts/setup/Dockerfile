@@ -9,5 +9,5 @@ COPY ./install-tmux /
 RUN set -x \
   && useradd -s /bin/bash -d /home/ritux/ -m -G sudo ritux \
   && apt-get update \
-  && apt-get install sudo wget curl -y
+  && apt-get install sudo wget curl git -y
 
