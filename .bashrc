@@ -229,3 +229,7 @@ export EDITOR="nvim"
 export PATH=$PATH:/home/ritux/.go/bin
 export GOPATH=/home/ritux/go
 export PATH=$PATH:/home/ritux/go/bin
+
+# fnm
+export PATH=/home/ritux/.fnm:$PATH
+eval "`fnm env`"
