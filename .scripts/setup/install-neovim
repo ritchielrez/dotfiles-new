@@ -9,7 +9,6 @@ if test -f "$EXE"; then
   sudo make install
   popd
 else 
-  mkdir $HOME/opts
   pushd $HOME/opts/ 
   gh repo clone neovim/neovim -- --depth 1
   pushd neovim

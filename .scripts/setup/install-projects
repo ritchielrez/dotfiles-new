@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if test -d "$HOME/dev"; then
+  gh repo clone golangTest ~/dev/golangTest
+else 
+  mkdir $HOME/dev
+  gh repo clone golangTest ~/dev/golangTest
+fi
