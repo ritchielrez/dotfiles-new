@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+EXE=$(which oh-my-posh)
+
+if test -f "$EXE"; then
+  sudo mv /usr/local/bin/oh-my-posh /usr/local/bin/oh-my-posh.old
+  sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
+  sudo chmod +x /usr/local/bin/oh-my-posh
+else 
+  sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
+  sudo chmod +x /usr/local/bin/oh-my-posh
+fi

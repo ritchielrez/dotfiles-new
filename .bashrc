@@ -223,8 +223,8 @@ export GOPATH=/home/ritux/go
 export PATH=$PATH:/home/ritux/go/bin
 
 # fnm
-export PATH=/home/ritux/.fnm:$PATH
-eval "`fnm env`"
+# export PATH=/home/ritux/.fnm:$PATH
+# eval "`fnm env`"
 
 # PATH variable needed to set for local programs
 export PATH="~/opts/:$PATH"
