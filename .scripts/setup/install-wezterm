@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+EXE=$(which wezterm)
+
+pushd $HOME/opts/
+curl -LO https://github.com/wez/wezterm/releases/download/20220408-101518-b908e2dd/wezterm-20220408-101518-b908e2dd.Ubuntu20.04.deb
+sudo apt install -y ./wezterm-20220408-101518-b908e2dd.Ubuntu20.04.deb
+popd
