@@ -235,5 +235,3 @@ export PATH="/usr/local/go/bin/:$PATH"
 
 export PATH="~/.local/bin/:$PATH"
 export PATH="~/.scripts/:$PATH"
-
-export PATH="~/opts/node/bin:$PATH"
