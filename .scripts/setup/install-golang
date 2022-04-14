@@ -5,12 +5,6 @@ DEP="wget"
 
 sudo apt install $DEP -y
 
-if test -f "$EXE"; then
-  pushd $HOME/.scripts/
-  ./go_installer && rm $HOME/.bash_profile
-  popd
-else 
-  pushd $HOME/.scripts/
-  wget https://get.golang.org/$(uname)/go_installer && chmod a+x go_installer && ./go_installer && rm $HOME/.bash_profile
-  popd
-fi
+pushd $HOME/.scripts/
+./go_installer && rm $HOME/.bash_profile
+popd
