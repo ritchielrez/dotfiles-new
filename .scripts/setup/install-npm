@@ -10,3 +10,8 @@ else
   mv node-v16.14.2-linux-x64 node
   popd
 fi
+
+printf "Put this piece of script in /etc/environment file:\n\n"
+printf "PATH=\"/home/<username>/opts/node/bin/:\$PATH\"\n\n"
+printf "Then run 'source /etc/environment', or better log out and log back in.\n"
+printf "Now node and npm should be installed!!!"
