@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 EXE=$(which nvim)
 
+DEP="ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen"
+
+sudo apt install $DEP -y
+
 if test -f "$EXE"; then
   pushd $HOME/opts/neovim/
   git fetch; git merge 
@@ -12,8 +16,6 @@ else
   pushd $HOME/opts/ 
   gh repo clone neovim/neovim -- --depth 1
   pushd neovim
-
-  sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen -y
 
   make -j2
   sudo make install
