@@ -39,6 +39,6 @@ dotfiles config --local status.showUntrackedFiles no
 ```
 
 Great!! Now you should be able to use all of configs! If you want to **stage, commit** and
-do git commands on this repository. Instead of providing the arguments to `git`. Provide them
-to the `dotfiles` alias, which we have setted up. Show let's suppose I want to check 
+do git commands on this repository. Instead of providing the arguments to `git`, *provide them
+to the `dotfiles` alias, setted up in `.bashrc`*. Show let's suppose I want to check 
 *status* of this repository, I run `dotfiles status`, instead of `git status`.
