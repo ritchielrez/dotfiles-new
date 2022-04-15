@@ -32,3 +32,8 @@ Then replace the local configs with the configs from this repository:
 ```bash
 dotfiles checkout --force
 ```
+
+And make sure that, the configs that are untracked, doesn't show up in `git status`:
+```bash
+dotfiles config --local status.showUntrackedFiles no
+```
