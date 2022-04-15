@@ -27,3 +27,8 @@ Then set a temporary alias, to change, stage and commit to this dotfiles reposit
 ```bash
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
 ```
+
+Then replace the local configs with the configs from this repository:
+```bash
+dotfiles checkout --force
+```
