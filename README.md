@@ -16,5 +16,10 @@ Articles discussing dotfiles management are listed below:
 - [Interactive dotfile management with dotbare](https://distrotube.com/guest-articles/interactive-dotfile-management-dotbare.html) (Kevin Zhuang)
 
 
+## How set up these dotfiles?
 
+First you need clone bare version of this repository in your home folder:
+```bash
+git clone https://github.com/ritchielrez/dotfiles-new --bare .git
+```
 
