@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-EXE=$(which npm)
+EXE=$(which node)
 
 if test -f "$EXE"; then
   sudo apt update 
@@ -14,4 +14,4 @@ fi
 printf "Put this piece of script at the end of /etc/profile:\n\n"
 printf "export PATH=\"/home/<username>/opts/node/bin/:\$PATH\"\n\n"
 printf "Then run 'source /etc/profile', or better log out and log back in.\n"
-printf "Now node and npm should be installed!!!"
+printf "Now node and npm should be installed!!!\n"
