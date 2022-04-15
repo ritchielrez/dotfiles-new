@@ -43,5 +43,5 @@ do git commands on this repository. Instead of providing the arguments to `git`,
 to the `dotfiles` alias***.    
 
 Show let's suppose I want to check *status* of this repository, I run `dotfiles status`, instead of `git status`.
-And you have done it! You can now, commmit changes to my repository, make pull requests, or just, test it out.
-Also don't forget to **STAR** this repository!
+And you have done it! You can now, commit changes to my repository, make pull requests, or just, test it out.
+Before leaving out, don't forget to **STAR** this repository! Thanks for checking out.
