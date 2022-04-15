@@ -1,6 +1,5 @@
 # Dotfiles
-## ⚠️**Warning**! This is my new dotfiles repository, not all the configs have been move over from the old one, it'll take some time.
-
+## This is my new dotfiles repository. Lot of the old configs are kept unmaintained on the older repository
 
 ## What is dotfiles?
 
