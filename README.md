@@ -38,8 +38,10 @@ And make sure that, the configs that are untracked, doesn't show up in `git stat
 dotfiles config --local status.showUntrackedFiles no
 ```
 
-Great!! Now you should be able to use all of configs! If you want to **stage, commit** and
+Now you should be able to use all of configs!! If you want to **stage, commit** and
 do git commands on this repository. Instead of providing the arguments to `git`, ***provide them
 to the `dotfiles` alias***.    
 
 Show let's suppose I want to check *status* of this repository, I run `dotfiles status`, instead of `git status`.
+And you have done it! You can now, commmit changes to my repository, make pull requests, or just, test it out.
+Also don't forget to **STAR** this repository!
