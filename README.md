@@ -1,5 +1,5 @@
-# Dotfiles
-## This is my new dotfiles repository. Lot of the old configs are kept unmaintained on the older repository
+# Dotfiles/Configuration files
+## This is my new dotfiles repository. Lot of the old configs are kept unmaintained on the older repository.
 
 ## What is dotfiles?
 
