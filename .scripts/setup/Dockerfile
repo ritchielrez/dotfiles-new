@@ -1,5 +1,6 @@
 FROM ubuntu
 COPY ./folder-setup /
+COPY ./install-doas /
 COPY ./install-gh /
 COPY ./install-docker /
 COPY ./install-golang /

@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+EXE=$(which doas)
+
+DEP="build-essential make bison flex libpam0g-dev"
+
+sudo apt install $DEP -y
+
+if test -f "$EXE"; then
+  pushd $HOME/opts/doas/
+  git fetch; git merge 
+
+  make -j2
+  sudo make install
+
+  sudo cp /etc/pam.d/sudo /etc/pam.d/doas
+  popd
+else 
+  pushd $HOME/opts/ 
+  gh repo clone slicer69/doas -- --depth 1
+  pushd doas
+
+  make -j2
+  sudo make install
+
+  sudo cp /etc/pam.d/sudo /etc/pam.d/doas
+
+  popd; popd
+fi
