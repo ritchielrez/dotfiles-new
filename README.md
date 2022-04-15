@@ -23,3 +23,7 @@ First you need clone bare version of this repository in your home folder:
 git clone https://github.com/ritchielrez/dotfiles-new --bare .git
 ```
 
+Then set a temporary alias, to manage, commit and push this dotfiles repository:
+```bash
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
+```
