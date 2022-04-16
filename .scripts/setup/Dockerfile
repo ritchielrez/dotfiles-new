@@ -8,6 +8,7 @@ COPY ./install-neovim /
 COPY ./install-projects /
 COPY ./install-tmux /
 COPY ./install-node /
+COPY ./install-vagrant /
 RUN set -x \
   && useradd -s /bin/bash -d /home/ritux/ -m -G sudo ritux \
   && apt-get update \

@@ -7,7 +7,7 @@ if test -f "$EXE"; then
 else 
   curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 
-  if [$(lsb_release -cs) = 'sid']; then
+  if [ $(lsb_release -cs) = 'sid' ]; then
     sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com bullseye main" -y
   else
     sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
