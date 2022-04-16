@@ -11,5 +11,5 @@ COPY ./install-node /
 RUN set -x \
   && useradd -s /bin/bash -d /home/ritux/ -m -G sudo ritux \
   && apt-get update \
-  && apt-get install sudo wget curl git xz-utils -y
+  && apt-get install sudo wget curl git xz-utils lsb_release -y
 

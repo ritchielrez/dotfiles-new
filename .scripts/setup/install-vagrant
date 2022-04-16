@@ -6,6 +6,11 @@ if test -f "$EXE"; then
   sudo apt install vagrant -y
 else 
   curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main" -y
+
+  if [$(lsb_release -cs) = 'sid']; then
+    sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com bullseye main" -y
+  else
+    sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  fi
   sudo apt update && sudo apt install vagrant -y 
 fi
