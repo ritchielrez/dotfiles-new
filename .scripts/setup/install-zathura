@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+EXE=$(which zathura)
+
+if test -f "$EXE"; then
+  sudo apt update 
+  sudo apt install zathura -y
+else 
+  sudo apt update
+  sudo apt install zathura -y
+fi
