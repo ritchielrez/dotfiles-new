@@ -1,8 +1,8 @@
 local wezterm = require 'wezterm';
 return {
-  font = wezterm.font("FiraCode Nerd Font"),
-  font_size = 15,
+  font = wezterm.font("UbuntuMono NF"),
+  font_size = 17,
   enable_tab_bar = false,
-  color_scheme = "nord",
+  color_scheme = "Gruvbox Dark",
 }
 
