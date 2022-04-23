@@ -8,7 +8,7 @@
 # Default bash prompt
 PS1='[\u@\h \W]\$ '
 
-alias ls='ls --color=auto'
+alias ls='exa --icons --git'
 alias ll='ls -la'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
 alias gs='git status'
