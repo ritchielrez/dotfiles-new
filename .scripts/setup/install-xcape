@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+EXE=$(which xcape)
+
+DEP="git gcc make pkg-config libx11-dev libxtst-dev libxi-dev"
+
+sudo apt install $DEP -y
+
+if test -f "$EXE"; then
+  pushd $HOME/opts/xcape/
+  git fetch; git merge 
+  make -j2
+  sudo make install
+  popd
+else 
+  pushd $HOME/opts/ 
+  gh repo clone alols/xcape -- --depth 1
+  pushd xcape
+
+  make -j2
+  sudo make install
+
+  popd; popd
+fi
+
