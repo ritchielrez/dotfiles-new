@@ -1,6 +1,6 @@
 local wezterm = require 'wezterm';
 return {
-  font = wezterm.font("JetbrainsMono NF"),
+  font = wezterm.font("FiraCode Nerd Font"),
   font_size = 16,
   enable_tab_bar = false,
   color_scheme = "nord",
