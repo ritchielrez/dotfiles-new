@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+EXE=$(which discord-canary)
+
+pushd $HOME/opts/
+curl -LO https://dl-canary.discordapp.net/apps/linux/0.0.135/discord-canary-0.0.135.deb
+sudo apt install -y ./discord-canary-0.0.135.deb
+popd
