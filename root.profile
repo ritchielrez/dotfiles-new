@@ -34,3 +34,4 @@ if [ -d /etc/profile.d ]; then
 fi
 
 export PATH="/home/ritux/opts/node/bin/:$PATH"
+export PATH="/home/ritux/opts/exa/bin/:$PATH"
