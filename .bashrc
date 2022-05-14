@@ -10,6 +10,7 @@ PS1='[\u@\h \W]\$ '
 
 alias ls='exa --icons --git'
 alias ll='ls -la'
+alias tree="ls --tree"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
 alias gs='git status'
 alias ga='git add'
