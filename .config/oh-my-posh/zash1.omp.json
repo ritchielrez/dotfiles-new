@@ -11,7 +11,7 @@
           "type": "session"
         },
         {
-          "foreground": "#56B6C2",
+          "foreground": "#7daea3",
           "properties": {
             "style": "folder"
           },
@@ -20,7 +20,7 @@
           "type": "path"
         },
         {
-          "foreground": "#b8bb26",
+          "foreground": "#a9b665",
           "properties": {
             "branch_icon": ""
           },
@@ -31,7 +31,7 @@
         {
           "foreground": "#8ec07c",
           "foreground_templates": [
-            "{{ if gt .Code 0 }}#fb4934{{ end }}"
+            "{{ if gt .Code 0 }}#ea6962{{ end }}"
           ],
           "leading_diamond": " ",
           "properties": {
