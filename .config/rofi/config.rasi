@@ -1,1 +1,7 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ font: "UbuntuMono Nerd Font 16";
+ combi-modi: "window,drun,ssh";
+ }
+
 @theme "gruvbox-dark.rasi"
