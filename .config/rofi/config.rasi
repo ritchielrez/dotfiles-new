@@ -1,6 +1,6 @@
 configuration {
  modi: "window,drun,ssh,combi";
- font: "UbuntuMono Nerd Font 16";
+ font: "UbuntuMono Nerd Font 20";
  combi-modi: "window,drun,ssh";
  }
 
