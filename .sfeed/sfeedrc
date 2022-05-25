@@ -6,6 +6,7 @@ feeds() {
 	feed "codemadness" "https://www.codemadness.org/atom_content.xml"
 	feed "Golang Github releases" "https://github.com/golang/go/releases.atom"
   feed "Neovim Github releases" "https://github.com/neovim/neovim/releases.atom"
+  feed "GH Github releases" "https://github.com/cli/cli/releases.atom"
 	feed "Youtube golang" "https://www.youtube.com/feeds/videos.xml?channel_id=UCO3LEtymiLrgvpb59cNsb8A"
   feed "It's FOSS" "https://itsfoss.com/feed/"
 }
