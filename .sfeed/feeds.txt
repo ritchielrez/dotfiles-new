@@ -1,0 +1,154 @@
+  2022-03-23 06:00  codemadness      2FA TOTP without crappy authenticator apps                             https://www.codemadness.org/totp.html
+  2021-10-23 06:00  codemadness      Setup an OpenBSD RISCV64 VM in QEMU                                    https://www.codemadness.org/openbsd-riscv64-vm.html
+  2020-06-25 06:00  codemadness      Sfeed_curses: a curses UI front-end for sfeed                          https://www.codemadness.org/sfeed_curses-ui.html
+  2019-11-10 06:00  codemadness      hurl: HTTP, HTTPS and Gopher file grabber                              https://www.codemadness.org/hurl.html
+  2019-10-13 06:00  codemadness      json2tsv: a JSON to TSV converter                                      https://www.codemadness.org/json2tsv.html
+  2019-04-24 06:00  codemadness      OpenBSD: setup a local auto-installation server                        https://www.codemadness.org/openbsd-autoinstall.html
+  2019-02-10 06:00  codemadness      Idiotbox: Youtube interface                                            https://www.codemadness.org/idiotbox.html
+  2018-08-17 06:00  codemadness      Gopher HTTP proxy                                                      https://www.codemadness.org/gopher-proxy.html
+  2018-03-10 06:00  codemadness      Setup your own file paste service                                      https://www.codemadness.org/paste-service.html
+  2018-02-25 06:00  codemadness      Setup your own git hosting service                                     https://www.codemadness.org/setup-git-hosting.html
+  2017-12-11 06:00  codemadness      Setup an OpenBSD SPARC64 VM in QEMU                                    https://www.codemadness.org/openbsd-sparc64-vm.html
+  2017-09-24 06:00  codemadness      jsdatatable: a small datatable Javascript                              https://www.codemadness.org/datatable.html
+  2017-09-24 06:00  codemadness      Tscrape: a Twitter scraper                                             https://www.codemadness.org/tscrape.html
+  2017-08-04 06:00  codemadness      Stagit-gopher: a static git page generator for gopher                  https://www.codemadness.org/stagit-gopher.html
+  2017-06-10 06:00  codemadness      Saait: a boring HTML page generator                                    https://www.codemadness.org/saait.html
+  2017-05-10 06:00  codemadness      Stagit: a static git page generator                                    https://www.codemadness.org/stagit.html
+  2015-07-05 06:00  codemadness      OpenBSD httpd, slowcgi and cgit                                        https://www.codemadness.org/openbsd-httpd-and-cgit.html
+  2014-11-23 06:00  codemadness      twitch: application to watch Twitch streams                            https://www.codemadness.org/twitch-interface.html
+  2014-03-02 06:00  codemadness      Userscript: focus input field                                          https://www.codemadness.org/userscript-focus-input-field.html
+  2013-02-21 06:00  codemadness      Userscript: Youtube circumvent age verification                        https://www.codemadness.org/userscript-youtube-circumvent-age-verification.html
+  2012-10-21 06:00  codemadness      Userscript: block stupid fonts                                         https://www.codemadness.org/userscript-block-stupid-fonts.html
+  2011-04-01 06:00  codemadness      Sfeed: simple RSS and Atom parser                                      https://www.codemadness.org/sfeed-simple-feed-parser.html
+  2011-01-07 06:00  codemadness      Vim theme: relaxed                                                     https://www.codemadness.org/vim-theme-relaxed.html
+  2010-10-31 06:00  codemadness      GTK2 theme: gtk-murrine-rape                                           https://www.codemadness.org/gtk2-theme-gtk-murrine-rape.html
+  2010-10-31 06:00  codemadness      Seturgent: set urgency hints for X applications                        https://www.codemadness.org/seturgent-set-urgency-hints-for-x-applications.html
+  2010-08-12 06:00  codemadness      DWM-hiltjo: my windowmanager configuration                             https://www.codemadness.org/dwm-hiltjo-my-windowmanager-configuration.html
+  2010-04-21 06:00  codemadness      Query unused CSS rules on current document state                       https://www.codemadness.org/query-unused-css-rules-on-current-document-state.html
+  2009-07-05 07:00  codemadness      Driconf: enabling S3 texture compression on Linux                      https://www.codemadness.org/driconf-enabling-s3-texture-compression-on-linux.html
+  2009-04-13 06:00  codemadness      Getting the USB-powerline bridge to work on Linux                      https://www.codemadness.org/getting-the-usb-powerline-bridge-to-work-on-linux.html
+  2009-04-12 06:00  codemadness      Gothic 1 game guide                                                    https://www.codemadness.org/gothic-1-guide.html
+  2021-12-21 12:00  explosm          Comic for 2021.12.21                                                   http://explosm.net/comics/6060/
+  2021-12-20 12:00  explosm          Comic for 2021.12.20                                                   http://explosm.net/comics/6059/
+  2021-12-19 12:00  explosm          Comic for 2021.12.19                                                   http://explosm.net/comics/6058/
+  2021-12-18 12:00  explosm          Comic for 2021.12.18                                                   http://explosm.net/comics/6057/
+  2021-12-17 12:00  explosm          Comic for 2021.12.17                                                   http://explosm.net/comics/6056/
+  2022-05-10 22:47  golang github …  [release-branch.go1.18] go1.18.2                                       https://github.com/golang/go/releases/tag/go1.18.2
+  2022-05-10 22:14  golang github …  [release-branch.go1.17] go1.17.10                                      https://github.com/golang/go/releases/tag/go1.17.10
+  2022-04-12 21:40  golang github …  [release-branch.go1.17] go1.17.9                                       https://github.com/golang/go/releases/tag/go1.17.9
+  2022-04-12 21:40  golang github …  [release-branch.go1.18] go1.18.1                                       https://github.com/golang/go/releases/tag/go1.18.1
+  2022-03-15 20:06  golang github …  [release-branch.go1.18] go1.18                                         https://github.com/golang/go/releases/tag/go1.18
+  2022-03-03 22:55  golang github …  [release-branch.go1.17] go1.17.8                                       https://github.com/golang/go/releases/tag/go1.17.8
+  2022-03-03 22:55  golang github …  [release-branch.go1.16] go1.16.15                                      https://github.com/golang/go/releases/tag/go1.16.15
+  2022-02-17 04:23  golang github …  [release-branch.go1.18] go1.18rc1                                      https://github.com/golang/go/releases/tag/go1.18rc1
+  2022-02-10 00:09  golang github …  [release-branch.go1.17] go1.17.7                                       https://github.com/golang/go/releases/tag/go1.17.7
+  2022-02-09 22:29  golang github …  [release-branch.go1.16] go1.16.14                                      https://github.com/golang/go/releases/tag/go1.16.14
+N 2022-05-25 13:59  linux kernel     5.17.10: stable                                                        http://www.kernel.org/
+N 2022-05-25 13:57  linux kernel     5.15.42: longterm                                                      http://www.kernel.org/
+N 2022-05-25 13:18  linux kernel     5.10.118: longterm                                                     http://www.kernel.org/
+N 2022-05-25 13:14  linux kernel     5.4.196: longterm                                                      http://www.kernel.org/
+N 2022-05-25 13:10  linux kernel     4.19.245: longterm                                                     http://www.kernel.org/
+N 2022-05-25 12:41  linux kernel     4.14.281: longterm                                                     http://www.kernel.org/
+N 2022-05-25 12:39  linux kernel     4.9.316: longterm                                                      http://www.kernel.org/
+N 2022-05-25 12:35  linux kernel     next-20220525: linux-next                                              http://www.kernel.org/
+  2022-05-23 01:52  linux kernel     5.18: mainline                                                         http://www.kernel.org/
+N 2022-05-25 02:28  reddit openbsd   Wireguard - stuck on "Invalid initiation MAC"                          https://old.reddit.com/r/openbsd/comments/ux082x/wireguard_stuck_on_invalid_initiation_mac/
+N 2022-05-25 00:34  reddit openbsd   Netflow implementation question                                        https://old.reddit.com/r/openbsd/comments/uwxnxz/netflow_implementation_question/
+  2022-05-24 15:48  reddit openbsd   Starting dhcpd at boot                                                 https://old.reddit.com/r/openbsd/comments/uwn2yv/starting_dhcpd_at_boot/
+  2022-05-24 11:27  reddit openbsd   Any known issues with install or performance of 7.1 on raspi 4?        https://old.reddit.com/r/openbsd/comments/uwjj02/any_known_issues_with_install_or_performance_of/
+  2022-05-23 04:20  reddit openbsd   OpenBSD 7.1 on a USB stick                                             https://old.reddit.com/r/openbsd/comments/uvlq54/openbsd_71_on_a_usb_stick/
+  2022-05-22 22:17  reddit openbsd   sndiod to usb tethered laptop                                          https://old.reddit.com/r/openbsd/comments/uve7ya/sndiod_to_usb_tethered_laptop/
+  2022-05-21 14:05  reddit openbsd   rcctl start rc_check timeout                                           https://old.reddit.com/r/openbsd/comments/uuiliq/rcctl_start_rc_check_timeout/
+  2022-05-21 11:02  reddit openbsd   mouse problems with w3m and xterm after upgrading                      https://old.reddit.com/r/openbsd/comments/uug472/mouse_problems_with_w3m_and_xterm_after_upgrading/
+  2022-05-20 15:23  reddit openbsd   how isolate python script ?                                            https://old.reddit.com/r/openbsd/comments/utprca/how_isolate_python_script/
+  2022-05-20 01:16  reddit openbsd   VPM to Cisco Anyconnect with OpenBSD                                   https://old.reddit.com/r/openbsd/comments/utavs1/vpm_to_cisco_anyconnect_with_openbsd/
+  2022-05-19 21:40  reddit openbsd   Getting programs to work on chroot -u www /var/www                     https://old.reddit.com/r/openbsd/comments/ut6759/getting_programs_to_work_on_chroot_u_www_varwww/
+  2022-05-19 14:45  reddit openbsd   CGI authentication                                                     https://old.reddit.com/r/openbsd/comments/usyzu7/cgi_authentication/
+  2022-05-19 06:57  reddit openbsd   DMARC and OpenBSD mailinglists                                         https://old.reddit.com/r/openbsd/comments/usrgz7/dmarc_and_openbsd_mailinglists/
+  2022-05-18 08:32  reddit openbsd   panic: malloc: out of space in kmem_map                                https://old.reddit.com/r/openbsd/comments/us2rqq/panic_malloc_out_of_space_in_kmem_map/
+  2022-05-17 22:10  reddit openbsd   CGI site                                                               https://old.reddit.com/r/openbsd/comments/urpwaf/cgi_site/
+  2022-05-16 23:17  reddit openbsd   CGI ksh + mail                                                         https://old.reddit.com/r/openbsd/comments/ur10qe/cgi_ksh_mail/
+  2022-05-16 11:40  reddit openbsd   puffer in wild                                                         https://old.reddit.com/r/openbsd/comments/uqopen/puffer_in_wild/
+  2022-05-16 09:15  reddit openbsd   Which filesystems can be mounted by OpenBSD installer?                 https://old.reddit.com/r/openbsd/comments/uqmek0/which_filesystems_can_be_mounted_by_openbsd/
+  2022-05-15 14:35  reddit openbsd   Boot after upgrade to 7.1 fails after disk check                       https://old.reddit.com/r/openbsd/comments/uq1qjd/boot_after_upgrade_to_71_fails_after_disk_check/
+  2022-05-15 09:04  reddit openbsd   Why can't you install OpenBSD using GPT Partition instead of MBR?      https://old.reddit.com/r/openbsd/comments/upwu1i/why_cant_you_install_openbsd_using_gpt_partition/
+  2022-05-15 01:56  reddit openbsd   XMPP Audio/Video Calls on OpenBSD 7.1 with Dino 0.3 Release - Everyon… https://old.reddit.com/r/openbsd/comments/upp1pd/xmpp_audiovideo_calls_on_openbsd_71_with_dino_03/
+  2022-05-14 14:37  reddit openbsd   Long time Debian/KDE user checking out OpenBSD/XFCE on a supported pl… https://old.reddit.com/r/openbsd/comments/upcywz/long_time_debiankde_user_checking_out_openbsdxfce/
+  2022-05-14 13:34  reddit openbsd   Does openbsd have a bluetooth stack?                                   https://old.reddit.com/r/openbsd/comments/upc4tl/does_openbsd_have_a_bluetooth_stack/
+  2022-05-14 02:28  reddit openbsd   Threads in OBSD 7.1 are in offline mode                                https://old.reddit.com/r/openbsd/comments/up0n96/threads_in_obsd_71_are_in_offline_mode/
+  2022-05-13 14:15  reddit openbsd   Now in ports: AppManager, a GUI for the OpenBSD package manager, by s… https://old.reddit.com/r/openbsd/comments/uomx0k/now_in_ports_appmanager_a_gui_for_the_openbsd/
+  2022-04-21 19:19  reddit openbsd   OpenBSD 7.1 has been released!                                         https://old.reddit.com/r/openbsd/comments/u8ni5w/openbsd_71_has_been_released/
+N 2022-05-25 16:00  slashdot         Cheap Gel Film Pulls Buckets of Drinking Water Per Day From Thin Air   https://science.slashdot.org/story/22/05/25/0038252/cheap-gel-film-pulls-buckets-of-drinking-water-per-day-from-thin-air?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 13:00  slashdot         US Moves Toward Supplying Romania With a Modular, Low-Cost Nuclear Pl… https://hardware.slashdot.org/story/22/05/25/007219/us-moves-toward-supplying-romania-with-a-modular-low-cost-nuclear-plant?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 09:30  slashdot         China Launches an Autonomous Mothership Full of Autonomous Drones      https://slashdot.org/story/22/05/25/0014259/china-launches-an-autonomous-mothership-full-of-autonomous-drones?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 08:02  slashdot         Driverless Cars Could Force Other Road Users To Drive More Efficiently https://tech.slashdot.org/story/22/05/24/2359227/driverless-cars-could-force-other-road-users-to-drive-more-efficiently?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 07:25  slashdot         Spain To Invest $13 Billion To Build Microchip Industry                https://hardware.slashdot.org/story/22/05/24/2145228/spain-to-invest-13-billion-to-build-microchip-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 06:45  slashdot         Samsung Allegedly Assembling a 'Dream Team' To Take Down Apple's M1 I… https://hardware.slashdot.org/story/22/05/24/2132208/samsung-allegedly-assembling-a-dream-team-to-take-down-apples-m1-in-2025?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 06:02  slashdot         Dutch Police Create Deepfake Video of Murdered Boy In Hope of New Lea… https://yro.slashdot.org/story/22/05/24/2118242/dutch-police-create-deepfake-video-of-murdered-boy-in-hope-of-new-leads?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 05:20  slashdot         Bing Contract Prohibits DuckDuckGo From Completely Blocking Microsoft… https://yro.slashdot.org/story/22/05/24/218210/bing-contract-prohibits-duckduckgo-from-completely-blocking-microsoft-tracking?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 04:40  slashdot         Facebook Opens Political Ad Data Vaults To Researchers                 https://tech.slashdot.org/story/22/05/24/210259/facebook-opens-political-ad-data-vaults-to-researchers?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 04:02  slashdot         Someone Stole Seth Green's Bored Ape, Which Was Supposed To Star In H… https://slashdot.org/story/22/05/24/2057212/someone-stole-seth-greens-bored-ape-which-was-supposed-to-star-in-his-new-show?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 03:25  slashdot         Watching Less TV Could Cut Heart Disease, Study Finds                  https://entertainment.slashdot.org/story/22/05/24/1947248/watching-less-tv-could-cut-heart-disease-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 02:44  slashdot         Shards of the Planet Mercury May Be Hiding on Earth                    https://science.slashdot.org/story/22/05/24/1941253/shards-of-the-planet-mercury-may-be-hiding-on-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 02:05  slashdot         Amazon Employees Are Quitting at Twice the Rate of Recent Years        https://tech.slashdot.org/story/22/05/24/1923207/amazon-employees-are-quitting-at-twice-the-rate-of-recent-years?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 01:25  slashdot         Apple Shipped Me a 79-Pound iPhone Repair Kit To Fix a 1.1-Ounce Batt… https://apple.slashdot.org/story/22/05/24/1912220/apple-shipped-me-a-79-pound-iphone-repair-kit-to-fix-a-11-ounce-battery?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 00:42  slashdot         Climate Worries Galvanize a New Pro-Nuclear Movement in the US         https://news.slashdot.org/story/22/05/24/1838254/climate-worries-galvanize-a-new-pro-nuclear-movement-in-the-us?utm_source=rss1.0mainlinkanon&utm_medium=feed
+N 2022-05-25 16:06  tweakers         48"-oledmonitor van LG krijgt refreshrate tot 138Hz                    https://tweakers.net/nieuws/197206/48-inch-oledmonitor-van-lg-krijgt-refreshrate-tot-138hz.html
+N 2022-05-25 15:08  tweakers         MSI toont QD-oledmonitor met 34"-175Hz-paneel                          https://tweakers.net/nieuws/197204/msi-toont-qd-oledmonitor-met-34-inch-175hz-paneel.html
+N 2022-05-25 14:56  tweakers         WordPress 6.0                                                          https://tweakers.net/downloads/60452/wordpress-60.html
+N 2022-05-25 14:51  tweakers         Privacyonderzoeker: DuckDuckGo laat Microsoft-scripts op sommige webs… https://tweakers.net/nieuws/197200/privacyonderzoeker-duckduckgo-laat-microsoft-scripts-op-sommige-websites-door.html
+N 2022-05-25 14:02  tweakers         Google Chrome 102.0.5005.63                                            https://tweakers.net/downloads/60448/google-chrome-1020500563.html
+N 2022-05-25 13:53  tweakers         PS3-games op PlayStation Plus Premium krijgen geen dlc                 https://tweakers.net/nieuws/197192/ps3-games-op-playstation-plus-premium-krijgen-geen-dlc.html
+N 2022-05-25 13:00  tweakers         Tweakers heeft voor 2022 een stageplek in het testlab beschikbaar      https://tweakers.net/plan/3548/tweakers-heeft-voor-2022-een-stageplek-in-het-testlab-beschikbaar.html
+N 2022-05-25 12:35  tweakers         Politici VS vragen Google locatietracking te stoppen wegens vervolgin… https://tweakers.net/nieuws/197190/politici-vs-vragen-google-locatietracking-te-stoppen-wegens-vervolging-abortus.html
+N 2022-05-25 12:00  tweakers         Geodata en iac-management: nieuwe sprekers op de Developers Summit 20… https://tweakers.net/plan/3518/geodata-en-iac-management-nieuwe-sprekers-op-de-developers-summit-2022.html
+N 2022-05-25 11:38  tweakers         Apple verplicht rechtstreeks verwijderen van accounts in apps vanaf 3… https://tweakers.net/nieuws/197188/apple-verplicht-rechtstreeks-verwijderen-van-accounts-in-apps-vanaf-30-juni.html
+N 2022-05-25 11:17  tweakers         Betterbird 91.9.1                                                      https://tweakers.net/downloads/60446/betterbird-9191.html
+N 2022-05-25 10:00  tweakers         [Plus] Naar de bliksem: het einde nadert voor Apple-connector Lightni… https://tweakers.net/nieuws/196858/naar-de-bliksem-het-einde-nadert-voor-apple-connector-lightning.html
+N 2022-05-25 10:00  tweakers         Privacywaakhond doet amper onderzoek naar datalekken die niet worden … https://tweakers.net/nieuws/197184/privacywaakhond-doet-amper-onderzoek-naar-datalekken-die-niet-worden-gemeld.html
+N 2022-05-25 09:52  tweakers         Paint.NET 4.3.11                                                       https://tweakers.net/downloads/60444/paint-punt-net-4311.html
+N 2022-05-25 09:39  tweakers         BurnAware 15.5                                                         https://tweakers.net/downloads/60442/burnaware-155.html
+N 2022-05-25 00:43  tweakers         Google voegt Apple Music-integratie toe aan Waze                       https://tweakers.net/nieuws/197182/google-voegt-apple-music-integratie-toe-aan-waze.html
+N 2022-05-25 00:09  tweakers         Steelseries kondigt Arctis Nova Pro Wireless aan met actieve noise ca… https://tweakers.net/nieuws/197180/steelseries-kondigt-arctis-nova-pro-wireless-aan-met-actieve-noise-cancelling.html
+N 2022-05-24 23:26  tweakers         Call of Duty: Modern Warfare 2 verschijnt op 28 oktober                https://tweakers.net/nieuws/197178/call-of-duty-modern-warfare-2-verschijnt-op-28-oktober.html
+N 2022-05-24 23:14  tweakers         MusicBrainz Picard 2.8                                                 https://tweakers.net/downloads/60430/musicbrainz-picard-28.html
+N 2022-05-24 22:54  tweakers         Herstelfunctie Microsoft Store moet nieuwe Windows 11-installatie ver… https://tweakers.net/nieuws/197176/herstelfunctie-microsoft-store-moet-nieuwe-windows-11-installatie-versimpelen.html
+N 2022-05-24 22:51  tweakers         GlassWire 2.3.413                                                      https://tweakers.net/downloads/60440/glasswire-23413.html
+N 2022-05-24 22:42  tweakers         Mp3tag 3.15                                                            https://tweakers.net/downloads/60438/mp3tag-315.html
+N 2022-05-24 22:27  tweakers         Samsung wil komende vijf jaar 360 miljard dollar investeren in chips … https://tweakers.net/nieuws/197174/samsung-wil-komende-vijf-jaar-360-miljard-dollar-investeren-in-chips-en-biotech.html
+N 2022-05-24 22:13  tweakers         TeamViewer 15.30.3                                                     https://tweakers.net/downloads/60436/teamviewer-15303.html
+N 2022-05-24 21:46  tweakers         Microsoft komt met native Arm-versies voor Visual Studio 2022 en VS C… https://tweakers.net/nieuws/197172/microsoft-komt-met-native-arm-versies-voor-visual-studio-2022-en-vs-code.html
+N 2022-05-24 21:43  tweakers         LosslessCut 3.45.0                                                     https://tweakers.net/downloads/60434/losslesscut-3450.html
+N 2022-05-24 21:14  tweakers         The Lord of the Rings: Gollum verschijnt op 1 september voor pc en co… https://tweakers.net/nieuws/197170/the-lord-of-the-rings-gollum-verschijnt-op-1-september-voor-pc-en-consoles.html
+N 2022-05-24 20:51  tweakers         Google toont AI-tool die tekst omzet in fotorealistische afbeeldingen  https://tweakers.net/nieuws/197166/google-toont-ai-tool-die-tekst-omzet-in-fotorealistische-afbeeldingen.html
+N 2022-05-24 20:28  tweakers         Hoge Raad: Instagram-account is geen voorwerp dat in beslag genomen k… https://tweakers.net/nieuws/197168/hoge-raad-instagram-account-is-geen-voorwerp-dat-in-beslag-genomen-kan-worden.html
+N 2022-05-24 20:00  tweakers         Samenwerking tussen Leica en Huawei is stopgezet                       https://tweakers.net/nieuws/197160/samenwerking-tussen-leica-en-huawei-is-stopgezet.html
+N 2022-05-24 19:49  tweakers         AP hoeft niet op te treden tegen bioscoop die contante betalingen wei… https://tweakers.net/nieuws/197158/ap-hoeft-niet-op-te-treden-tegen-bioscoop-die-contante-betalingen-weigert.html
+N 2022-05-24 19:42  tweakers         Apacer en Zadak tonen PCIe 5.0-ssd's met snelheden tot 13GB/s          https://tweakers.net/nieuws/197164/apacer-en-zadak-tonen-pcie-50-ssds-met-snelheden-tot-13gb-s.html
+N 2022-05-24 18:57  tweakers         Nederlandse gemeenten houden zich nog steeds niet voldoende aan de pr… https://tweakers.net/nieuws/197162/nederlandse-gemeenten-houden-zich-nog-steeds-niet-voldoende-aan-de-privacywet.html
+N 2022-05-24 18:24  tweakers         Hack van Chinese politieservers legt mensenrechtenschendingen in Xinj… https://tweakers.net/nieuws/197156/hack-van-chinese-politieservers-legt-mensenrechtenschendingen-in-xinjiang-bloot.html
+N 2022-05-24 18:14  tweakers         Starlink komt met maandelijks opzegbaar For RV-abonnement voor mobiel… https://tweakers.net/nieuws/197154/starlink-komt-met-maandelijks-opzegbaar-for-rv-abonnement-voor-mobiel-gebruik.html
+N 2022-05-24 17:41  tweakers         Streacom brengt in juli open SFF-behuizing uit voor 139 euro           https://tweakers.net/nieuws/197142/streacom-brengt-in-juli-open-sff-behuizing-uit-voor-139-euro.html
+N 2022-05-24 17:22  tweakers         Polestar investeert in fabrikant van snellaadaccu's StoreDot           https://tweakers.net/nieuws/197152/polestar-investeert-in-fabrikant-van-snellaadaccus-storedot.html
+  2022-05-24 16:11  tweakers         ASML en Philips starten Brabants technologiefonds van 100 miljoen euro https://tweakers.net/nieuws/197146/asml-en-philips-starten-brabants-technologiefonds-van-100-miljoen-euro.html
+  2022-05-24 15:59  tweakers         Nothing-smartphone krijgt transparante behuizing en draadloos laden    https://tweakers.net/nieuws/197150/nothing-smartphone-krijgt-transparante-behuizing-en-draadloos-laden.html
+  2022-05-24 15:29  tweakers         IFixit begint met verkoop reserveonderdelen Steam Deck en Valve Index  https://tweakers.net/nieuws/197140/ifixit-begint-met-verkoop-reserveonderdelen-steam-deck-en-valve-index.html
+  2022-05-23 06:00  xkcd             Goofs                                                                  https://xkcd.com/2623/
+  2022-05-20 06:00  xkcd             Angular Diameter Turnaround                                            https://xkcd.com/2622/
+  2022-05-18 06:00  xkcd             Mainly Known For                                                       https://xkcd.com/2621/
+  2022-05-16 06:00  xkcd             Health Data                                                            https://xkcd.com/2620/
+  2022-03-24 22:00  youtube golang   Go 1.18 is here!                                                       https://www.youtube.com/watch?v=-JdfKb3HwMU
+  2017-10-04 05:59  youtube golang   SF Docker + Go Meetup | Banking on Go with Matt Heath                  https://www.youtube.com/watch?v=iRNwLjKeVRE
+  2017-10-04 05:58  youtube golang   SF Docker + Go Meetup | Blockchain, Cryptocurriencies, and Go with Vi… https://www.youtube.com/watch?v=Lmgx9KQLueY
+  2017-10-04 05:39  youtube golang   Release Party | Ways To Do Things with Peter Bourgon                   https://www.youtube.com/watch?v=LHe1Cb_Ud_M
+  2017-10-04 05:39  youtube golang   Release Party | Analyzing production using Flamegraphs with Prashant … https://www.youtube.com/watch?v=aAhNDgEZj_U
+  2017-10-04 05:35  youtube golang   Release Party | The State of Go 1.9 with Francesc Campoy               https://www.youtube.com/watch?v=vFJkH4qDjJ0
+  2017-08-26 09:51  youtube golang   Go 1.9 Release Party                                                   https://www.youtube.com/watch?v=WB9UUWNIhm4
+  2017-06-23 02:44  youtube golang   Gopherfest 2017 | Lessons Learned from a Context-NATS Integration wit… https://www.youtube.com/watch?v=jUIh14avdDY
+  2017-06-23 02:44  youtube golang   Gopherfest 2017 | Upspin with Rob Pike                                 https://www.youtube.com/watch?v=ENLWEfi0Tkg
+  2017-06-23 02:44  youtube golang   Gopherfest 2017 | Event Sourcing – Architectures and Patterns with Ma… https://www.youtube.com/watch?v=B-reKkB8L5Q
+  2017-06-23 02:44  youtube golang   Gopherfest 2017 | The State of Go with Francesc Campoy                 https://www.youtube.com/watch?v=dyvpF0jF3AY
+  2017-05-16 10:16  youtube golang   Gopherfest 2017                                                        https://www.youtube.com/watch?v=giUatBmmb_Y
+  2017-05-16 02:55  youtube golang   Go 1.9 Release Party - GoSF                                            https://www.youtube.com/watch?v=KXJPj1kmmAg
+  2017-02-11 08:00  youtube golang   FOSDEM 2017 | High performance and scaling techniques in Golang using… https://www.youtube.com/watch?v=AOpprhr6C9I
+  2017-02-10 05:42  youtube golang   FOSDEM 2017 | High-performance IoT Using Go and Gobot                  https://www.youtube.com/watch?v=qza7-CRCVVU
