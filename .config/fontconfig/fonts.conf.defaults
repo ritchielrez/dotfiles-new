@@ -9,7 +9,7 @@
   <test compare="less_eq" name="weight">
    <int>100</int>
   </test>
-  <test target="pattern" compare="more_eq" name="weight">
+  <test compare="more_eq" target="pattern" name="weight">
    <int>180</int>
   </test>
   <edit mode="assign" name="embolden">
@@ -24,7 +24,7 @@
   <test compare="less_eq" name="weight">
    <int>100</int>
   </test>
-  <test target="pattern" compare="more_eq" name="weight">
+  <test compare="more_eq" target="pattern" name="weight">
    <int>180</int>
   </test>
   <edit mode="assign" name="embolden">
@@ -39,7 +39,7 @@
   <test compare="less_eq" name="weight">
    <int>100</int>
   </test>
-  <test target="pattern" compare="more_eq" name="weight">
+  <test compare="more_eq" target="pattern" name="weight">
    <int>180</int>
   </test>
   <edit mode="assign" name="embolden">
@@ -54,7 +54,7 @@
   <test compare="less_eq" name="weight">
    <int>100</int>
   </test>
-  <test target="pattern" compare="more_eq" name="weight">
+  <test compare="more_eq" target="pattern" name="weight">
    <int>180</int>
   </test>
   <edit mode="assign" name="embolden">
@@ -63,13 +63,13 @@
  </match>
  <dir>~/.fonts</dir>
  <alias>
-  <family>Ubuntu</family>
+  <family>UbuntuMon Nerd Font</family>
   <prefer>
    <family>Noto Sans Bengali</family>
   </prefer>
  </alias>
  <alias>
-  <family>Ubuntu Mono</family>
+  <family>Ubuntu Nerd Font</family>
   <prefer>
    <family>Noto Sans Bengali</family>
   </prefer>
