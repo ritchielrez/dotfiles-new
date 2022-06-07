@@ -7,6 +7,7 @@
         {
           "foreground": "#E36464",
           "style": "plain",
+          "template": "@{{ .UserName }}",
           "type": "session"
         },
         {
@@ -15,6 +16,7 @@
             "style": "folder"
           },
           "style": "plain",
+          "template": " {{ .Path }}",
           "type": "path"
         },
         {
@@ -23,6 +25,7 @@
             "branch_icon": ""
           },
           "style": "plain",
+          "template": " \ue725 {{ .HEAD }}",
           "type": "git"
         },
         {
@@ -35,6 +38,7 @@
             "always_enabled": true
           },
           "style": "diamond",
+          "template": "\uf0a9 ",
           "type": "exit"
         }
       ],
@@ -42,5 +46,5 @@
     }
   ],
   "final_space": true,
-  "version": 1
+  "version": 2
 }
