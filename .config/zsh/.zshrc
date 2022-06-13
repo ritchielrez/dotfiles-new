@@ -45,7 +45,8 @@ zsh_add_plugin "romkatv/zsh-defer"
 zsh-defer zsh_add_plugin "zsh-users/zsh-completions"
 zsh-defer zsh_add_plugin "zsh-users/zsh-autosuggestions"
 
-zsh-defer zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
+# zsh-defer zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
+zsh-defer zsh_add_plugin "zdharma-continuum/fast-syntax-highlighting"
 zsh-defer zsh_add_plugin "hlissner/zsh-autopair"
 
 # zsh_add_completion "esc/conda-zsh-completion" false
