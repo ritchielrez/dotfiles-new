@@ -6,5 +6,6 @@ return {
   color_scheme = "nord_darker",
   color_scheme_dirs = {"~/.config/wezterm/colors/"},
   window_background_opacity = 0.98,
+  window_close_confirmation = "NeverPrompt",
 }
 
