@@ -16,6 +16,7 @@ else
   pushd $HOME/opts/ 
   gh repo clone neovim/neovim -- --depth 1
   pushd neovim
+  git checkout stable
 
   make -j2
   sudo make install
