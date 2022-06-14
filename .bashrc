@@ -236,7 +236,3 @@ export PATH="/usr/local/go/bin/:$PATH"
 
 export PATH="~/.local/bin/:$PATH"
 export PATH="~/.scripts/:$PATH"
-
-export ZDOTDIR=$HOME/.config/zsh
-
-zsh
