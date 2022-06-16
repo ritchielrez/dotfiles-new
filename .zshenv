@@ -20,6 +20,7 @@ export PATH=$HOME/.fnm:$PATH
 export PATH="$PATH:./node_modules/.bin"
 export PATH="$PATH:$HOME/opts/lazygit"
 export PATH="$PATH:$HOME/opts/node/bin"
+export PATH="$PATH:$HOME/dev/vcpkg"
 source ~/.cargo/env
 # eval "$(fnm env)"
 # eval "$(zoxide init zsh)"
