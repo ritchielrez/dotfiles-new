@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+EXE=$(which lsd)
+
+pushd $HOME/opts/
+rm -rf lsd-0.22.0-x86_64-unknown-linux-gnu.tar.gz
+wget https://github.com/Peltoche/lsd/releases/download/0.22.0/lsd-0.22.0-x86_64-unknown-linux-gnu.tar.gz
+rm -rf lsd
+tar xvf lsd-0.22.0-x86_64-unknown-linux-gnu.tar.gz
+mv lsd-0.22.0-x86_64-unknown-linux-gnu/ lsd/
+popd
+
+printf "Put this piece of script at the end of /etc/profile:\n\n"
+printf "export PATH=\"/home/<username>/opts/lsd/:\$PATH\"\n\n"
+printf "Then run 'source /etc/profile', or better log out and log back in.\n"
+printf "Now node and npm should be installed!!!\n"
