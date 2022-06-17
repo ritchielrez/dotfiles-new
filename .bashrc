@@ -2,6 +2,9 @@
 # ~/.bashrc
 #
 
+# Don't forget to source the login profile
+source /etc/profile
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
