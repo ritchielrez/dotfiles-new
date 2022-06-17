@@ -1,6 +1,7 @@
 local wezterm = require 'wezterm';
 return {
   font = wezterm.font("JetbrainsMono Nerd Font"),
+  -- font = wezterm.font_with_fallback({"nonicons", "JetbrainsMono Nerd Font"}),
   font_size = 13,
   enable_tab_bar = false,
   color_scheme = "Gruvbox Material Dark",
