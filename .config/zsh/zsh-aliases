@@ -68,6 +68,8 @@ fi
 alias ls='lsd'
 alias ll='lsd -lA'
 
+alias nginx='/usr/sbin/nginx'
+
 # case "$(uname -s)" in
 #
 # Darwin)
