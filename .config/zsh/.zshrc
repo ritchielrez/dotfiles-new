@@ -47,7 +47,7 @@ zsh-defer zsh_add_plugin "hlissner/zsh-autopair"
 # More completions https://github.com/zsh-users/zsh-completions
 
 # Normal files to source
-zsh-defer zsh_add_file "zsh-vim-mode"
+zsh_add_file "zsh-vim-mode"
 zsh_add_file "zsh-aliases"
 # zsh_add_file "zsh-prompt"
 
