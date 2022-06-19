@@ -13,7 +13,6 @@ zle_highlight=('paste:none')
 # beeping is annoying
 unsetopt BEEP
 
-
 # completions
 autoload -Uz compinit
 zstyle ':completion:*' menu select
@@ -33,11 +32,6 @@ autoload -Uz colors && colors
 # Useful Functions
 source "$ZDOTDIR/zsh-functions"
 
-# Normal files to source
-zsh-defer zsh_add_file "zsh-vim-mode"
-zsh_add_file "zsh-aliases"
-# zsh_add_file "zsh-prompt"
-
 # Plugins
 zsh_add_plugin "romkatv/zsh-defer"
 
@@ -51,6 +45,11 @@ zsh-defer zsh_add_plugin "hlissner/zsh-autopair"
 # zsh_add_completion "esc/conda-zsh-completion" false
 # For more plugins: https://github.com/unixorn/awesome-zsh-plugins
 # More completions https://github.com/zsh-users/zsh-completions
+
+# Normal files to source
+zsh-defer zsh_add_file "zsh-vim-mode"
+zsh_add_file "zsh-aliases"
+# zsh_add_file "zsh-prompt"
 
 # Key-bindings
 # bindkey -s '^o' 'ranger^M'
