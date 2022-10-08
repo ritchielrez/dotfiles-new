@@ -202,7 +202,7 @@ lfcd () {
 }
 
 # Oh my posh, my bash prompt
-# eval "$(oh-my-posh --init --shell bash --config $HOME/.poshthemes/powerline.omp.json)"
+eval "$(oh-my-posh --init --shell bash --config $HOME/.poshthemes/powerline.omp.json)"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -239,3 +239,6 @@ export PATH="/usr/local/go/bin/:$PATH"
 
 export PATH="~/.local/bin/:$PATH"
 export PATH="~/.scripts/:$PATH"
+
+# zoxide(https://github.com/ajeetdsouza/zoxide) configuration
+eval "$(zoxide init bash)"
