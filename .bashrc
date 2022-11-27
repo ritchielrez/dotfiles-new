@@ -202,7 +202,7 @@ lfcd () {
 }
 
 # Oh my posh, my bash prompt
-eval "$(oh-my-posh --init --shell bash --config $HOME/.poshthemes/powerline.omp.json)"
+eval "$(oh-my-posh --init --shell bash --config $HOME/.poshthemes/zash.omp.json)"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
