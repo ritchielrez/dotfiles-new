@@ -11,7 +11,7 @@ source /etc/profile
 # Default bash prompt
 PS1='[\u@\h \W]\$ '
 
-# alias ls='lsd'
+alias ls='exa --icons'
 alias ll='ls -la'
 alias tree="ls --tree"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
@@ -202,7 +202,7 @@ lfcd () {
 }
 
 # Oh my posh, my bash prompt
-eval "$(oh-my-posh --init --shell bash --config $HOME/.poshthemes/zash.omp.json)"
+eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
