@@ -1,7 +1,7 @@
 local wezterm = require 'wezterm';
 return {
-  -- font = wezterm.font("JetbrainsMono Nerd Font"),
-  font_size = 13,
+  font = wezterm.font("Comic Mono"),
+  font_size = 14,
   enable_tab_bar = false,
   color_scheme = "everforest",
   color_scheme_dirs = {"~/.config/wezterm/colors/"},
