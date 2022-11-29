@@ -26,12 +26,12 @@
           "type": "path"
         },
         {
-          "foreground": "#D4AAFC",
+          "foreground": "#d699b6",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " <#DDB15F>git(</>{{ .HEAD }}<#DDB15F>)</>",
+          "template": " <#dbbc7f>git(</>{{ .HEAD }}<#DDB15F>)</>",
           "type": "git"
         },
         {
