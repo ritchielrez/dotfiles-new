@@ -3,7 +3,7 @@ if not status is-interactive
 end
 
 # Aliases
-alias ls='ls --color=auto'
+alias ls='exa --icons'
 alias ll='ls -la'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
 alias gs='git status'
