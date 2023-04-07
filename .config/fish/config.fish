@@ -20,5 +20,8 @@ export PATH="$HOME/.cargo/bin/:$PATH"
 
 # theme_gruvbox dark medium
 
+# zoxide configuration
+zoxide init fish | source
+
 # Prompt
 oh-my-posh prompt init fish | source
