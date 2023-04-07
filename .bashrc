@@ -219,7 +219,7 @@ export EDITOR="nvim"
 # fish
 
 # cargo enviroment variables
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
 # Golang
 export PATH=$PATH:/home/ritux/.go/bin
@@ -244,3 +244,8 @@ export PATH=$PATH:/home/ritux/.spicetify
 
 # zoxide(https://github.com/ajeetdsouza/zoxide) configuration
 eval "$(zoxide init bash)"
+
+# vcpkg cmake integration
+export CMAKE_TOOLCHAIN_FILE=$HOME/dev/vcpkg/scripts/buildsystems/vcpkg.cmake
+
+fish
