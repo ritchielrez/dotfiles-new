@@ -210,7 +210,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # bat
-export BAT_THEME=gruvbox-dark
+export BAT_THEME=Nord
 
 # set EDITOR as neovim
 export EDITOR="nvim"
