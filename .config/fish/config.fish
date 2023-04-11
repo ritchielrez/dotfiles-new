@@ -5,6 +5,8 @@ end
 # Aliases
 alias ls='exa --icons'
 alias ll='ls -la'
+alias sl='ls'
+
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
 alias gs='git status'
 alias ga='git add'
