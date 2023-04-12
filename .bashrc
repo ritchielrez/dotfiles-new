@@ -14,15 +14,15 @@ PS1='[\u@\h \W]\$ '
 alias ls='exa --icons'
 alias ll='ls -la'
 alias tree="ls --tree"
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
+# alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
 alias gs='git status'
 alias ga='git add'
 alias gp='git push -u origin'
 
-alias dts='dotfiles status'
-alias dta='dotfiles add'
+alias dts='yadm status'
+alias dta='yadm add'
 alias dtc='dotfiles cz'
-alias dtp='dotfiles push -u origin'
+alias dtp='yadm push -u origin'
 
 # lf
 alias lf="lfub"
