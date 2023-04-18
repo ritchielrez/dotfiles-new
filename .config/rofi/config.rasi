@@ -1,7 +1,16 @@
-configuration {
- modi: "window,drun,ssh,combi";
- font: "UbuntuMono Nerd Font 20";
- combi-modi: "window,drun,ssh";
- }
+configuration{
+    modi: "run,drun,window";
+    show-icons: true;
+    terminal: "wezterm";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    display-window: " 﩯  Window";
+    display-Network: " 󰤨  Network";
+    sidebar-mode: true;
+}
 
-@theme "gruvbox-dark.rasi"
+@theme "catppuccin-mocha"
