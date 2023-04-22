@@ -317,6 +317,10 @@ toggle do not disturb=none,,Toggle do not disturb
 _k_friendly_name=rofi -show drun
 _launch=Meta+D,none,rofi -show drun
 
+[rofi-3.desktop]
+_k_friendly_name=rofi -show run
+_launch=Meta+R,none,rofi -show run
+
 [systemsettings.desktop]
 _k_friendly_name=System Settings
 _launch=Tools\tMeta+I,Tools,System Settings
