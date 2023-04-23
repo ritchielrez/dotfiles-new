@@ -20,6 +20,8 @@ alias dtp='yadm push -u origin'
 # Path
 export PATH="$HOME/.cargo/bin/:$PATH"
 
+export PATH="$HOME/dev/projectGenerate/build/:$PATH"
+
 # theme_gruvbox dark medium
 
 # zoxide configuration
@@ -27,3 +29,7 @@ zoxide init fish | source
 
 # Prompt
 oh-my-posh prompt init fish | source
+
+# volta configuration
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
