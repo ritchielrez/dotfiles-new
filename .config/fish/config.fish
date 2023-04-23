@@ -14,7 +14,7 @@ alias gp='git push -u origin'
 
 alias dts='yadm status'
 alias dta='yadm add'
-alias dtc='dotfiles cz'
+alias dtc='yadm cz'
 alias dtp='yadm push -u origin'
 
 # Path
