@@ -44,8 +44,14 @@ toggle_spiral_layout=none,,Toggle Spiral Layout
 toggle_spread_layout=none,,Toggle Spread Layout
 toggle_stair_layout=none,,Toggle Stair Layout
 toggle_three_column_layout=none,,Toggle Three Column Layout
-toggle_tile_layout=none,Meta+T,Toggle Tile Layout
+toggle_tile_layout=Meta+T,Meta+T,Toggle Tile Layout
 toggle_window_floating=none,Meta+F,Toggle Active Window Floating
+
+[brave-browser-2.desktop]
+_k_friendly_name=Brave Wayland
+_launch=none,none,Launch Brave Wayland
+new-private-window=none,none,New Incognito Window
+new-window=none,none,New Window
 
 [brave-browser.desktop]
 _k_friendly_name=Brave
@@ -278,6 +284,10 @@ Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
 Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
+
+[pcmanfm-qt.desktop]
+_k_friendly_name=PCManFM-Qt File Manager
+_launch=Meta+E,none,PCManFM-Qt File Manager
 
 [plasmashell]
 _k_friendly_name=Plasma
