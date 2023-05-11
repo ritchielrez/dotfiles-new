@@ -22,7 +22,7 @@ export PATH="$HOME/.cargo/bin/:$PATH"
 
 export PATH="$HOME/dev/projectGenerate/build/:$PATH"
 
-# theme_gruvbox dark medium
+theme_gruvbox dark medium
 
 # zoxide configuration
 zoxide init fish | source
