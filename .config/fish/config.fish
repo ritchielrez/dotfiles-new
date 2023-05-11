@@ -28,7 +28,7 @@ export PATH="$HOME/dev/projectGenerate/build/:$PATH"
 zoxide init fish | source
 
 # Prompt
-oh-my-posh prompt init fish | source
+# oh-my-posh prompt init fish | source
 
 # volta configuration
 set -gx VOLTA_HOME "$HOME/.volta"
