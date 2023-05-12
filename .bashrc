@@ -246,9 +246,9 @@ export PATH=$PATH:/home/ritux/.spicetify
 eval "$(zoxide init bash)"
 
 # vcpkg cmake integration
-export CMAKE_TOOLCHAIN_FILE=$HOME/dev/vcpkg/scripts/buildsystems/vcpkg.cmake
+# export CMAKE_TOOLCHAIN_FILE=$HOME/dev/vcpkg/scripts/buildsystems/vcpkg.cmake
 
 # For wezterm undercurl support
-export TERM=wezterm
+# export TERM=wezterm
 
 fish
