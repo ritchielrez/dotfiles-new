@@ -201,9 +201,6 @@ lfcd () {
     fi
 }
 
-# Oh my posh, my bash prompt
-eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
-
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -251,4 +248,5 @@ eval "$(zoxide init bash)"
 # For wezterm undercurl support
 # export TERM=wezterm
 
-fish
+# Oh my posh, my bash prompt
+eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
