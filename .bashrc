@@ -24,6 +24,8 @@ alias dta='yadm add'
 alias dtc='dotfiles cz'
 alias dtp='yadm push -u origin'
 
+alias dtnv='yadm enter nvim'
+
 # lf
 alias lf="lfub"
 
