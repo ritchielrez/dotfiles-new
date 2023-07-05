@@ -22,7 +22,8 @@ set $menu rofi -show drun -show-icons -font 'CaskaydiaCove Nerd Font 17'
 
 ### Output configuration
 
-output * bg /home/ritux/dev/wallpapers/Anime/programmer-girl-II.jpg fill
+# output * bg /home/ritux/Pictures/wallpapers/mocha.png fill
+exec ~/.azotebg
 
 # Example configuration:
 #
