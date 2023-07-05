@@ -243,18 +243,18 @@ include /etc/sway/config.d/*
 for_window [class="^.*"] border pixel 0
 default_border none
 
-set $gnome-schema org.gnome.desktop.interface
-
-seat seat0 xcursor_theme 'Bibata-Rainbow-Modern' 24
-
-exec_always {
-    gsettings set $gnome-schema gtk-theme 'Catppuccin-Mocha-Standard-Lavender-dark'
-    gsettings set $gnome-schema icon-theme 'Papirus-Dark'
-    gsettings set $gnome-schema cursor-theme 'Bibata-Rainbow-Modern'
-    gsettings set $gnome-schema cursor-size '24'
-    gsettings set $gnome-schema font-name 'CaskaydiaCove Nerd Font 11'
-    # gsettings set $gnome-schema text-scaling-factor 1.25
-}
+# set $gnome-schema org.gnome.desktop.interface
+#
+# seat seat0 xcursor_theme 'Bibata-Rainbow-Modern' 24
+#
+# exec_always {
+#     gsettings set $gnome-schema gtk-theme 'Catppuccin-Mocha-Standard-Lavender-dark'
+#     gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+#     gsettings set $gnome-schema cursor-theme 'Bibata-Rainbow-Modern'
+#     gsettings set $gnome-schema cursor-size '24'
+#     gsettings set $gnome-schema font-name 'CaskaydiaCove Nerd Font 11'
+#     # gsettings set $gnome-schema text-scaling-factor 1.25
+# }
 
 # Notfication daemon
 exec_always dunst &
