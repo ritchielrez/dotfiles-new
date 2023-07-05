@@ -4,6 +4,7 @@ update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_sh
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-7a70005c-3fe0-40e5-8136-e0d92db620e4=none,none,Switch to activity "Default"
+switch-to-activity-d8eaa0d8-ac6c-43d1-844a-e72874745599=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
@@ -11,24 +12,24 @@ _k_friendly_name=Keyboard Layout Switcher
 
 [bismuth]
 _k_friendly_name=Window Tiling
-decrease_master_size=none,,Decrease Master Area Size
+decrease_master_size=none,none,Decrease Master Area Size
 decrease_master_win_count=none,Meta+[,Decrease Master Area Window Count
 decrease_window_height=none,Meta+Ctrl+K,Decrease Window Height
 decrease_window_width=none,Meta+Ctrl+H,Decrease Window Width
 focus_bottom_window=none,Meta+J,Focus Bottom Window
 focus_left_window=none,Meta+H,Focus Left Window
-focus_next_window=none,,Focus Next Window
-focus_prev_window=none,,Focus Previous Window
+focus_next_window=none,none,Focus Next Window
+focus_prev_window=none,none,Focus Previous Window
 focus_right_window=none,Meta+L,Focus Right Window
 focus_upper_window=none,Meta+K,Focus Upper Window
-increase_master_size=none,,Increase Master Area Size
+increase_master_size=none,none,Increase Master Area Size
 increase_master_win_count=none,Meta+],Increase Master Area Window Count
 increase_window_height=none,Meta+Ctrl+J,Increase Window Height
 increase_window_width=none,Meta+Ctrl+L,Increase Window Width
 move_window_to_bottom_pos=none,Meta+Shift+J,Move Window Down
 move_window_to_left_pos=none,Meta+Shift+H,Move Window Left
-move_window_to_next_pos=none,,Move Window to the Next Position
-move_window_to_prev_pos=none,,Move Window to the Previous Position
+move_window_to_next_pos=none,none,Move Window to the Next Position
+move_window_to_prev_pos=none,none,Move Window to the Previous Position
 move_window_to_right_pos=none,Meta+Shift+L,Move Window Right
 move_window_to_upper_pos=none,Meta+Shift+K,Move Window Up
 next_layout=none,Meta+\\\\,Switch to the Next Layout
@@ -36,14 +37,14 @@ prev_layout=none,Meta+|,Switch to the Previous Layout
 push_window_to_master=none,Meta+Return,Push Active Window to Master Area
 rotate=none,Meta+R,Rotate
 rotate_part=none,Meta+Shift+R,Rotate Part
-rotate_reverse=none,,Rotate (Reverse)
+rotate_reverse=none,none,Rotate (Reverse)
 toggle_float_layout=Meta+Shift+F,Meta+Shift+F,Toggle Floating Layout
 toggle_monocle_layout=Meta+M,Meta+M,Toggle Monocle Layout
-toggle_quarter_layout=none,,Toggle Quarter Layout
-toggle_spiral_layout=none,,Toggle Spiral Layout
-toggle_spread_layout=none,,Toggle Spread Layout
-toggle_stair_layout=none,,Toggle Stair Layout
-toggle_three_column_layout=none,,Toggle Three Column Layout
+toggle_quarter_layout=none,none,Toggle Quarter Layout
+toggle_spiral_layout=none,none,Toggle Spiral Layout
+toggle_spread_layout=none,none,Toggle Spread Layout
+toggle_stair_layout=none,none,Toggle Stair Layout
+toggle_three_column_layout=none,none,Toggle Three Column Layout
 toggle_tile_layout=Meta+T,Meta+T,Toggle Tile Layout
 toggle_window_floating=none,Meta+F,Toggle Active Window Floating
 
@@ -55,9 +56,13 @@ new-window=none,none,New Window
 
 [brave-browser.desktop]
 _k_friendly_name=Brave
-_launch=Meta+W,none,Brave
+_launch=none,none,Brave
 new-private-window=none,none,New Incognito Window
 new-window=none,none,New Window
+
+[firefox-esr.desktop]
+_k_friendly_name=Firefox ESR
+_launch=Meta+W,none,Firefox ESR
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -66,12 +71,17 @@ _k_friendly_name=Accessibility
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle,Toggle Touchpad
+Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
 _k_friendly_name=Touchpad
 
 [kded5]
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
 _k_friendly_name=KDE Daemon
+display=Display\tMeta+P,Display\tMeta+P,Switch Display
+
+[khotkeys]
+_k_friendly_name=Custom Shortcuts Service
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -268,10 +278,6 @@ _launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 _k_friendly_name=Emoji Selector
 _launch=Meta+.,Meta+.,Emoji Selector
 
-[org.wezfurlong.wezterm.desktop]
-_k_friendly_name=WezTerm
-_launch=Meta+Return,none,WezTerm
-
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
@@ -291,11 +297,11 @@ _launch=Meta+E,none,PCManFM-Qt File Manager
 
 [plasmashell]
 _k_friendly_name=Plasma
-activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
+activate task manager entry 1=Alt+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
-activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
-activate task manager entry 3=none,Meta+3,Activate Task Manager Entry 3
-activate task manager entry 4=none,Meta+4,Activate Task Manager Entry 4
+activate task manager entry 2=Alt+2,Meta+2,Activate Task Manager Entry 2
+activate task manager entry 3=Alt+3,Meta+3,Activate Task Manager Entry 3
+activate task manager entry 4=Alt+4,Meta+4,Activate Task Manager Entry 4
 activate task manager entry 5=none,Meta+5,Activate Task Manager Entry 5
 activate task manager entry 6=none,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
