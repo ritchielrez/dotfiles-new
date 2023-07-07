@@ -104,8 +104,8 @@ input type:touchpad {
     bindsym XF86AudioMute exec ~/.scripts/changevolume mute
     bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
-    bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
-    bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
+    bindsym XF86MonBrightnessUp exec ~/.scripts/changebrightness up
+    bindsym XF86MonBrightnessDown exec ~/.scripts/changebrightness down
 
 #
 # Moving around:
