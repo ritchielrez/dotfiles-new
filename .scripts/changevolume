@@ -1,0 +1,36 @@
+#!/bin/sh
+
+# Increment, decrement, or mute the volume and send a notification
+# of the current volume level.
+
+send_notification() {
+	volume=$(pactl list sinks | grep "^[[:space:]]Volume:" | awk '{print $5}')
+	dunstify -a "volume" -u low -r 9993 -h int:value:"$volume" -i "volume-$1" "Volume: ${volume}" -t 2000
+}
+
+case $1 in
+up)
+	# Set the volume on (if it was muted)
+	# pamixer -u
+	# pamixer -i 5 --allow-boost
+    pactl set-sink-mute @DEFAULT_SINK@ true
+    pactl set-sink-volume @DEFAULT_SINK@ +5%
+	send_notification "$1"
+	;;
+down)
+	pactl set-sink-mute @DEFAULT_SINK@ true
+	# pamixer -d 5 --allow-boost
+    pactl set-sink-volume @DEFAULT_SINK@ -5%
+	send_notification "$1"
+	;;
+mute)
+	# pamixer -t
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+    ismute=$(pactl list sinks | grep "^[[:space:]]Mute:" | awk {'print $2'})
+	if [ "$ismute" = "yes" ]; then
+		dunstify -a "volume" -t 2000 -r 9993 -u low -i "volume-mute" "Muted"
+	else
+		send_notification up
+	fi
+	;;
+esac
