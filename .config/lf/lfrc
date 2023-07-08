@@ -5,4 +5,3 @@ map <backspace> set hidden!
 set previewer '~/.scripts/preview'
 set icons
 set cleaner '~/.scripts/cleaner'
-set drawbox
