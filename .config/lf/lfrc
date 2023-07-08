@@ -2,6 +2,7 @@
 map <enter> open
 map <backspace> set hidden!
 
-set previewer '~/.config/lf/scope'
+set previewer '~/.scripts/preview'
 set icons
-set cleaner '~/.config/lf/cleaner'
+set cleaner '~/.scripts/cleaner'
+set drawbox
