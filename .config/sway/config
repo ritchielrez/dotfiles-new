@@ -248,7 +248,7 @@ include /etc/sway/config.d/*
 # Remove the titlebar
 for_window [class="^.*"] border pixel 0
 
-default_border pixel 5
+default_border pixel 3
 
 # client.focused "#7f849c" "#7f849c" "#7f849c" "#7f849c"
 # # Previously focues inactive windows
