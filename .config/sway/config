@@ -247,7 +247,7 @@ include /etc/sway/config.d/*
 
 # Remove the titlebar
 for_window [class="^.*"] border pixel 0
-for_window [class="Firefox"] border pixel
+for_window [class="Firefox"] border pixel 3
 default_border pixel 3
 
 # client.focused "#7f849c" "#7f849c" "#7f849c" "#7f849c"
