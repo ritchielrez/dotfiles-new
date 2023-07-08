@@ -18,7 +18,7 @@ set $term wezterm
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu rofi -show drun -show-icons -font 'CaskaydiaCove Nerd Font 17'
+set $menu rofi -show drun -show-icons -font 'CaskaydiaCove Nerd Font 15'
 
 ### Output configuration
 
