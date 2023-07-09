@@ -224,6 +224,11 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #
+# Window gaps
+gaps inner 15px
+gaps outer 15px
+
+#
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
