@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sleep $1; dunstify "TIME IS UP" -u critical
