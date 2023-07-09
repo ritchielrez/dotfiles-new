@@ -224,6 +224,10 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #
+# Screenshot keymap
+#
+bindsym Print exec grim -g "$(slurp -d)" - | wl-copy
+
 # Window gaps
 gaps inner 15px
 gaps outer 15px
