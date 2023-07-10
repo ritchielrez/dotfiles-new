@@ -27,7 +27,7 @@ alias dtp='yadm push -u origin'
 alias dtnv='yadm enter nvim'
 
 # lf
-alias lf="lfub"
+# alias lf="lfub"
 
 export LF_ICONS="\
 tw=:\
@@ -217,9 +217,6 @@ export EDITOR="nvim"
 # Fish shell
 # fish
 
-# cargo enviroment variables
-# . "$HOME/.cargo/env"
-
 # Golang
 export PATH=$PATH:/home/ritux/.go/bin
 export GOPATH=/home/ritux/go
@@ -252,3 +249,6 @@ eval "$(zoxide init bash)"
 
 # Oh my posh, my bash prompt
 eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
+
+# cargo enviroment variables
+. "$HOME/.cargo/env"
