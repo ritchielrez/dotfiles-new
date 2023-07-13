@@ -252,3 +252,7 @@ eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.o
 
 # cargo enviroment variables
 . "$HOME/.cargo/env"
+
+# dotnet enviroment variables
+export DOTNET_ROOT=$HOME/dotnet
+export PATH=$PATH:$HOME/dotnet
