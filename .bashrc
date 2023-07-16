@@ -241,6 +241,9 @@ export PATH="~/.scripts/:$PATH"
 
 export PATH=$PATH:/home/ritux/.spicetify
 
+# Homebrew package manager
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # zoxide(https://github.com/ajeetdsouza/zoxide) configuration
 eval "$(zoxide init bash)"
 
