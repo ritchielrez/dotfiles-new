@@ -1,5 +1,5 @@
 #!/bin/sh
 
-datetime="$(date +"%d/%m/%y %r")"
+datetime="$(date +"%d/%m/%y %I:%M %p")"
 
 dunstify --appname="datetime" "$datetime"
