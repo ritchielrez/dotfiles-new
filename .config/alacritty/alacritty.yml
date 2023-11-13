@@ -1,6 +1,6 @@
 # Window Customization
 window:
-#  opacity: 0.8
+  opacity: 0.9
   dimensions:
     columns: 200
     lines: 60
@@ -12,7 +12,6 @@ scrolling:
   history: 10000
   multiplier: 3
 window.dynamic_title: true
-background_opacity: 0.9
 
 # Font Customization
 font:
@@ -32,7 +31,6 @@ font:
   glyph_offset:
     x: 0
     y: 0
-  use_thin_strokes: false
   debug:
     persistent_logging: false
 draw_bold_text_with_bright_colors: true
