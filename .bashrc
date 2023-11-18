@@ -218,7 +218,7 @@ export EDITOR="nvim"
 # fish
 
 # cargo enviroment variables
-# . "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
 
 # Golang
 export PATH=$PATH:/home/ritux/.go/bin
@@ -255,3 +255,13 @@ eval "$(zoxide init bash)"
 
 # Oh my posh, my bash prompt
 eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
+eval "$(/bin/brew shellenv)"
+# Added by zap installation script
+PATH=$PATH:$HOME/.local/bin
+
+# ble.sh - syntax highlighting for bash
+source ~/.local/share/blesh/ble.sh
+
+bleopt complete_auto_history=
+
+ble-face -s syntax_error fg=red
