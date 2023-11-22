@@ -295,3 +295,5 @@ ble-face -s filename_block            underline,fg=blue
 ble-face -s filename_warning          underline,fg=red
 ble-face -s filename_url              underline,fg=blue
 ble-face -s filename_ls_colors        underline
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
