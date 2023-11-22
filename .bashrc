@@ -239,6 +239,8 @@ export PATH="/usr/local/go/bin/:$PATH"
 export PATH="~/.local/bin/:$PATH"
 export PATH="~/.scripts/:$PATH"
 
+export PATH="~/.local/share/nvim/mason/bin/:$PATH"
+
 export PATH=$PATH:/home/ritux/.spicetify
 
 # Homebrew package manager
