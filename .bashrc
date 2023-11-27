@@ -19,6 +19,7 @@ alias gs='git status'
 alias ga='git add'
 alias gp='git push -u origin'
 
+alias dotfiles='yadm'
 alias dts='yadm status'
 alias dta='yadm add'
 alias dtc='dotfiles cz'
