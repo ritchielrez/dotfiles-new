@@ -57,14 +57,14 @@ ellipsize = end
 [urgency_low]
 timeout = 4
 background = "#1e1e2e"
-frame_color = "#89b4fa"
+frame_color = "#cba6f7"
 foreground = "#cdd6f4"
 
 [urgency_normal]
 timeout = 8
 background = "#1e1e2e"
 ; frame_color = "#7f849c"
-frame_color = "#89b4fa"
+frame_color = "#cba6f7"
 foreground = "#cdd6f4"
 
 [urgency_critical]
