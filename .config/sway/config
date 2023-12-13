@@ -264,3 +264,6 @@ exec_always dunst &
 
 # Spiral layout for sway/i3
 exec_always autotiling &
+
+# Hotkey daemon
+exec_always ~/.scripts/hotkey &

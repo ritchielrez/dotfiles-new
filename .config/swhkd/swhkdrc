@@ -1,0 +1,5 @@
+super + e
+	pcmanfm
+
+super + t
+	~/.scripts/datetime
