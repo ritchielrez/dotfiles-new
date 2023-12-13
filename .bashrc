@@ -233,10 +233,6 @@ export GOPATH="$HOME/ritux/go"
 export PATH="$PATH:$HOME/ritux/go/bin"
 export PATH="$PATH:/usr/local/go/bin"
 
-# fnm
-# export PATH=/home/ritux/.fnm:$PATH
-# eval "`fnm env`"
-
 # PATH variable needed to set for local programs
 export PATH="~/opts/:$PATH"
 
@@ -305,3 +301,7 @@ ble-face -s filename_url              underline,fg=blue
 ble-face -s filename_ls_colors        underline
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# fnm
+export PATH="/home/ritux/.local/share/fnm:$PATH"
+eval "`fnm env`"
