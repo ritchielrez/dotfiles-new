@@ -305,3 +305,4 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 # fnm
 export PATH="/home/ritux/.local/share/fnm:$PATH"
 eval "`fnm env`"
+eval "$(fnm env --use-on-cd)"
