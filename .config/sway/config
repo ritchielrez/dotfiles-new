@@ -267,3 +267,6 @@ exec_always autotiling &
 
 # Hotkey daemon
 exec_always ~/.scripts/hotkey &
+
+# Polkit
+exec_always /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
