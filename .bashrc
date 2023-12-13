@@ -228,9 +228,10 @@ export EDITOR="nvim"
 . "$HOME/.cargo/env"
 
 # Golang
-export PATH=$PATH:/home/ritux/.go/bin
-export GOPATH=/home/ritux/go
-export PATH=$PATH:/home/ritux/go/bin
+export PATH=$PATH:"$HOME/.go/bin"
+export GOPATH="$HOME/ritux/go"
+export PATH="$PATH:$HOME/ritux/go/bin"
+export PATH="$PATH:/usr/local/go/bin"
 
 # fnm
 # export PATH=/home/ritux/.fnm:$PATH
