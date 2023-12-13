@@ -13,12 +13,12 @@ up)
 	# Set the volume on (if it was muted)
 	# pamixer -u
 	# pamixer -i 5 --allow-boost
-    pactl set-sink-mute @DEFAULT_SINK@ true
+    pactl set-sink-mute @DEFAULT_SINK@ false
     pactl set-sink-volume @DEFAULT_SINK@ +5%
 	send_notification "$1"
 	;;
 down)
-	pactl set-sink-mute @DEFAULT_SINK@ true
+	pactl set-sink-mute @DEFAULT_SINK@ false
 	# pamixer -d 5 --allow-boost
     pactl set-sink-volume @DEFAULT_SINK@ -5%
 	send_notification "$1"
