@@ -1,0 +1,9 @@
+#!/bin/sh
+
+swhks &
+
+if pgrep -x "swhkd"; then
+    sudo pkill -HUP swhkd
+else
+    pkexec swhkd
+fi

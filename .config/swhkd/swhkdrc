@@ -6,3 +6,6 @@ super + e
 
 super + t
 	~/.scripts/datetime
+
+super + shift + `
+    wl-color-picker
