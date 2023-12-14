@@ -1,3 +1,6 @@
+XF86Audio{RaiseVolume, LowerVolume, Mute}
+    ~/.scripts/changevolume {up, down, mute}
+
 super + e
 	pcmanfm
 
