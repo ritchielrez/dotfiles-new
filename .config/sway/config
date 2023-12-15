@@ -265,11 +265,14 @@ default_border none
 #     # gsettings set $gnome-schema text-scaling-factor 1.25
 # }
 
-# Notfication daemon
-exec_always dunst &
-
 # Spiral layout for sway/i3
 exec_always autotiling &
+
+# Lock screen
+exec_always ~/.scripts/autolock &
+
+# Notfication daemon
+exec_always dunst &
 
 # Hotkey daemon
 exec_always ~/.scripts/hotkey &
