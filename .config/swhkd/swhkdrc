@@ -10,5 +10,8 @@ super + t
 super + shift + `
     wl-color-picker
 
+super + shift + s
+    grim -g "$(slurp)" "$HOME/Pictures/screenshots/$(date +"%Y%m%d_%H%M%S").png"
+
 Print
-    grim "$HOME/Pictures/screenshots/$(date +"%Y%m%d_%H%M%S").png" -g "$(slurp)"
+    grim "$HOME/Pictures/screenshots/$(date +"%Y%m%d_%H%M%S").png"
