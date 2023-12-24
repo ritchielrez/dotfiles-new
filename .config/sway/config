@@ -251,6 +251,9 @@ include /etc/sway/config.d/*
 # Remove the titlebar
 for_window [class="^.*"] border pixel 0
 default_border none
+# Window gaps
+gaps inner 15px
+gaps outer 15px
 
 # set $gnome-schema org.gnome.desktop.interface
 #
