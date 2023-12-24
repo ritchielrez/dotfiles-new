@@ -250,10 +250,28 @@ include /etc/sway/config.d/*
 
 # Remove the titlebar
 for_window [class="^.*"] border pixel 0
-default_border none
+for_window [class="Firefox"] border pixel 3
+default_border pixel 3
+
 # Window gaps
 gaps inner 15px
 gaps outer 15px
+
+# client.focused "#7f849c" "#7f849c" "#7f849c" "#7f849c"
+# # Previously focues inactive windows
+# client.focused_inactive "#7f849c" "#7f849c" "#7f849c" "#7f849c"
+# # Never focused inactive windows
+# client.unfocused "#7f849c" "#7f849c" "#7f849c" "#7f849c"
+
+# target                 title     bg    text   indicator  border
+client.focused           $mauve     $base $text  $rosewater $mauve
+# Previously focused inactive windows
+client.focused_inactive  $red       $base $text  $rosewater $red
+# Never focused inactive windows
+client.unfocused         $red       $base $text  $rosewater $red
+client.urgent            $peach     $base $peach $overlay0  $peach
+client.placeholder       $overlay0  $base $text  $overlay0  $overlay0
+client.background        $base
 
 # set $gnome-schema org.gnome.desktop.interface
 #
