@@ -2,7 +2,7 @@
 
 {
     "layer": "top",
-    "modules-left": ["custom/launcher","cpu","memory","tray"],
+    "modules-left": ["custom/launcher","cpu","memory"],
     "modules-center": ["sway/workspaces"],
     "modules-right": ["backlight","pulseaudio","clock", "battery","custom/power"],
 
@@ -33,11 +33,6 @@
 		}
 	},
 
-	"network": {
-		"tooltip": false,
-		"format-wifi": "  {essid}",
-		"format-ethernet": ""
-	},
 	"backlight": {
 		"tooltip": false,
 		"format": " {}%",
@@ -45,6 +40,7 @@
         "on-scroll-up": "brillo -A 5",
 		"on-scroll-down": "brillo -U 5"
 	},
+
     "battery": {
         "states": {
             "good": 95,
@@ -57,23 +53,28 @@
         "format-alt": "{time} {icon}",
         "format-icons": ["", "", "", "", ""]
     },
+
 	"tray":{
 		"icon-size":18,
 		"spacing": 10
 	},
+
     "clock": {
-        "format": "{: %H:%M 󰃮 %d/%m/%Y}"
+        "format": "{: %I:%M 󰃮 %d/%m/%Y}"
     },
+
     "cpu": {
         "interval": 15,
         "format": " {}%",
         "max-length": 10
     },
+
     "memory": {
         "interval": 30,
         "format": " {}%",
         "max-length": 10
     },
+
     "custom/launcher":{
         "format": " ",
         "on-click": "rofi -show drun",
