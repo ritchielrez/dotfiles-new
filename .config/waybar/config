@@ -2,7 +2,7 @@
 
 {
     "layer": "top",
-    "modules-left": ["custom/launcher","cpu","memory"],
+    "modules-left": ["custom/launcher"],
     "modules-center": ["sway/workspaces"],
     "modules-right": ["backlight","pulseaudio","clock", "battery","custom/power"],
 
