@@ -28,7 +28,6 @@ window#waybar.hidden {
 	margin-left: 12px;
 	font-size: 4px;
 	margin-bottom: 0px;
-	border-radius: 10px;
 	background: #181825;
 	transition: none;
 }
@@ -50,8 +49,8 @@ window#waybar.hidden {
 
 #workspaces button.focused {
 	color: #CBA6F7;
-    border-top: 2px solid #CBA6F7;
-    border-bottom: 2px solid #CBA6F7;
+    /* border-top: 2px solid #CBA6F7; */
+    /* border-bottom: 2px solid #CBA6F7; */
 }
 
 #workspaces button:hover {
