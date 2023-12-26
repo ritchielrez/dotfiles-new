@@ -303,3 +303,5 @@ exec_always ~/.scripts/hotkey &
 
 # Polkit
 exec_always /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
+# The bar at the top
+exec_always ~/.scripts/run-waybar &
