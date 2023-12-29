@@ -278,7 +278,7 @@ client.background        $base
 
 # set $gnome-schema org.gnome.desktop.interface
 #
-# seat seat0 xcursor_theme 'Bibata-Rainbow-Modern' 24
+seat seat0 xcursor_theme 'Breeze_Snow' 36
 #
 # exec_always {
 #     gsettings set $gnome-schema gtk-theme 'Catppuccin-Mocha-Standard-Lavender-dark'
