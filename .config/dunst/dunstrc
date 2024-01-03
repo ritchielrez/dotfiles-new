@@ -8,7 +8,7 @@ height = 380
 progress_bar = true
 progress_bar_height = 25
 progress_bar_frame_width = 3
-progress_bar_min_width = 300
+progress_bar_min_width = 100
 progress_bar_max_width = 380
 highlight = "#b4befe"
 dmenu = /usr/bin/dmenu
@@ -22,7 +22,7 @@ frame_width = 3
 frame_color = "#151a1f"
 sort = true
 idle_threshold = 0
-font = FiraCode Nerd Font 14
+font = FiraCode Nerd Font 13
 line_height = 2
 markup = full
 origin = "top-right"
@@ -30,7 +30,7 @@ offset = "50x50"
 format = "<b>%s</b>\n%b"
 alignment = left
 show_age_threshold = 60
-word_wrap = false
+word_wrap = true
 ignore_newline = true
 stack_duplicates = true
 hide_duplicate_count = true
@@ -185,5 +185,10 @@ format = "<span size='x-large' weight='bold'>%s</span>\n<span font_desc='Cooper 
 appname = "datetime"
 summary = "*"
 timeout = 1
+
+[battery-daemon]
+appname = "battery-daemon"
+summary = "*"
+format = "%s"
 
 # vim:filetype=dosini
