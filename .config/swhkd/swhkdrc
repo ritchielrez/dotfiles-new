@@ -4,6 +4,9 @@ XF86Audio{RaiseVolume, LowerVolume, Mute}
 super + e
 	pcmanfm
 
+super + .
+    ~/.scripts/rofiemoji
+
 super + t
 	~/.scripts/datetime
 
