@@ -17,7 +17,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 # Default bash prompt
 PS1='[\u@\h \W]\$ '
 
-alias ls='exa --icons'
+alias ls='eza --icons'
 alias ll='ls -la'
 alias tree="ls --tree"
 # alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
