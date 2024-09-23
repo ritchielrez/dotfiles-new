@@ -1,9 +1,3 @@
-# Default config for sway
-#
-# Copy this to ~/.config/sway/config and edit it to your liking.
-#
-# Read `man 5 sway` for a complete reference.
-
 # Color scheme
 include catppuccin-mocha
 
@@ -278,7 +272,7 @@ client.background        $base
 
 # set $gnome-schema org.gnome.desktop.interface
 #
-seat seat0 xcursor_theme 'Breeze_Snow' 36
+seat seat0 xcursor_theme 'Bibata-Modern-Ice' 36
 #
 # exec_always {
 #     gsettings set $gnome-schema gtk-theme 'Catppuccin-Mocha-Standard-Lavender-dark'
@@ -299,10 +293,11 @@ exec_always ~/.scripts/autolock &
 exec_always dunst &
 
 # Hotkey daemon
-exec_always ~/.scripts/hotkey &
+# exec_always ~/.scripts/hotkey &
 
 # Polkit
-exec_always /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
+# exec_always /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
+# exec_always /usr/libexec/xfce-polkit &
 
 # Battery daemon (made by me)
 exec_always ~/ritux/go/bin/battery-daemon &
