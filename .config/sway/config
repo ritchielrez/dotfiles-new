@@ -94,14 +94,9 @@ input type:touchpad {
 # System keymaps:
 #
 
-# bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
-# bindsym XF86AudioRaiseVolume exec ~/.scripts/changevolume up
-# # bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
-# bindsym XF86AudioLowerVolume exec ~/.scripts/changevolume down
-# # bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
-# bindsym XF86AudioMute exec ~/.scripts/changevolume mute
-# bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
-#
+bindsym XF86AudioRaiseVolume exec ~/.scripts/changevolume up
+bindsym XF86AudioLowerVolume exec ~/.scripts/changevolume down
+bindsym XF86AudioMute exec ~/.scripts/changevolume mute
 
 bindsym XF86MonBrightnessDown exec ~/.scripts/changebrightness down
 bindsym XF86MonBrightnessUp exec ~/.scripts/changebrightness up
@@ -222,6 +217,10 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+
+bindsym $mod+w exec firefox
+bindsym $mod+e exec thunar
+bindsym $mod+t exec ~/.scripts/datetime
 
 #
 # Status Bar:
