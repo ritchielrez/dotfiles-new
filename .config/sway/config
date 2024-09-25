@@ -223,7 +223,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bindsym $mod+w exec firefox
-bindsym $mod+e exec thunar
+bindsym $mod+e exec pcmanfm
 bindsym $mod+t exec ~/.scripts/datetime
 
 #
