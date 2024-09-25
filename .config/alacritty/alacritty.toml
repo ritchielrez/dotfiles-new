@@ -8,7 +8,7 @@ cursor = "CellForeground"
 text = "CellBackground"
 
 [font]
-size = 12
+size = 10
 
 [font.bold]
 family = "MartianMono Nerd Font"
@@ -37,6 +37,7 @@ multiplier = 3
 [window]
 decorations = "none"
 startup_mode = "Maximized"
+opacity = 0.9
 
 [window.dimensions]
 columns = 200
@@ -45,3 +46,6 @@ lines = 60
 [window.padding]
 x = 20
 y = 20
+
+[env]
+TERM = "xterm-256color"
