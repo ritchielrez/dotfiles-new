@@ -11,6 +11,7 @@ configuration{
     display-window: " 󰕰 Window ";
     display-Network: " 󰤨  Network";
     sidebar-mode: true;
+    font: "MartianMono Nerd Font 12";
 }
 
 @theme "./catppuccin-mocha.rasi"
