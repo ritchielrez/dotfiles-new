@@ -1,11 +1,13 @@
 #!/bin/sh
 
-if pgrep -x "swayidle"; then
+lock='swaylock-effects'
+
+if pgrep -x 'swayidle'; then
     pkill swayidle
 fi
 
 swayidle -w \
-    timeout 400 'swaylock' \
+    timeout 400 "$lock" \
     timeout 1200 'sudo systemctl suspend' \
-    before-sleep 'swaylock; sleep 1' \
+    before-sleep "$lock; sleep 1" \
     after-resume 'swaymsg "output * dpms on"' &
