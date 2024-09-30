@@ -1,0 +1,104 @@
+* {
+    blue: #89b4fa;
+    mauve: #cba6f7;
+    bg-col:  #181825;
+    border-col: #f38ba8;
+    selected-col: @mauve;
+    fg-col: #cdd6f4;
+    fg-col2: @mauve;
+    fg-dim: #9399b2; 
+    grey: #6c7086;
+    spacing: 5;
+}
+window {
+    background-color: @bg-col;
+    border-color: @border-col;
+    border: 3px;
+    padding: 5px;
+    width: 30%;
+    height: 40%;
+}
+mainbox {
+    border: 0;
+    padding: 0;
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+/* message { */
+/*     border: 2px 0px 0px; */
+/*     border-color: @bg-col; */
+/*     padding: 1px; */
+/* } */
+textbox {
+    fixed-width: false;
+    fixed-height: false;
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+listview {
+    background-color: @bg-col;
+    scrollbar: false;
+    columns: 1;
+    spacing: 10px;
+    padding: 10px;
+}
+element {
+    margin: 0;
+    border: 0px solid;
+    border-radius: 10;
+    padding: 2px;
+}
+element-text, mode-switcher {
+    background-color: inherit;
+    text-color: inherit;
+}
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    highlight:                   inherit;
+    cursor:                      inherit;
+}
+element.normal.normal, element.alternate.normal {
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+element.normal.active {
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+element.selected.normal, element.selected.active {
+    background-color: @selected-col;
+    text-color: @bg-col;
+}
+button {
+    spacing: 0;
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+button.selected {
+    background-color: @bg-col;
+    text-color: @fg-col2;
+}
+inputbar {
+    children: [prompt,textbox-prompt-colon,entry];
+    background-color: @bg-col;
+    text-color: @fg-col;
+    spacing: 0;
+    padding: 2px;
+}
+prompt {
+    background-color: inherit;
+    text-color: inherit;
+}
+textbox-prompt-colon {
+    expand: false;
+    str: ": ";
+    background-color: inherit;
+    text-color: inherit;
+}
+entry {
+    background-color: inherit;
+    text-color: @fg-col;
+    placeholder: "Search";
+    placeholder-color: @fg-dim;
+}

@@ -6,12 +6,12 @@ configuration{
     location: 0;
     disable-history: false;
     hide-scrollbar: true;
-    display-drun: "󰀘  Apps ";
-    display-run: "   Run ";
-    display-window: " 󰕰 Window ";
+    display-drun: "󰀘 Apps";
+    display-run: " Run";
+    display-window: "󰕰 Window";
     display-Network: " 󰤨  Network";
     sidebar-mode: true;
     font: "MartianMono Nerd Font 12";
 }
 
-@theme "./catppuccin-mocha.rasi"
+@theme "./catppuccin-mocha-custom.rasi"
