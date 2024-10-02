@@ -1,7 +1,15 @@
-# Bindings
-map <enter> open
-map <backspace> set hidden!
-
 set previewer '~/.config/lf/scope'
 set icons
 set cleaner '~/.config/lf/cleaner'
+
+cmd trash %{{
+	mapfile -t files <<< "$fx"
+	trash-put "${files[@]}"
+}}
+
+# Bindings
+map <enter> open
+map <backspace2> set hidden!
+
+map x cut
+map d trash
