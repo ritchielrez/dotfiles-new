@@ -3,7 +3,7 @@
 exec ~/.azotebg
 
 # Font
-font pango:MartianMono Nerd Font 13
+font pango:MartianMono Nerd Font 10
 
 #
 # GTK theming(not needed, just use nwg-look)
@@ -29,3 +29,4 @@ include modules/vars.conf
 include modules/keymaps.conf
 include modules/window.conf
 include modules/autostart.conf
+include modules/bar.conf
