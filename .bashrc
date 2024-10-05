@@ -251,7 +251,7 @@ export PATH="~/.local/share/nvim/mason/bin/:$PATH"
 export PATH=$PATH:/home/ritux/.spicetify
 
 # Homebrew package manager
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # zoxide(https://github.com/ajeetdsouza/zoxide) configuration
 eval "$(zoxide init bash)"
@@ -264,7 +264,7 @@ eval "$(zoxide init bash)"
 
 # Oh my posh, my bash prompt
 eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
-eval "$(/bin/brew shellenv)"
+# eval "$(/bin/brew shellenv)"
 # Added by zap installation script
 PATH=$PATH:$HOME/.local/bin
 
