@@ -34,7 +34,7 @@ alias dtp='yadm push -u origin'
 alias dtnv='yadm enter nvim'
 
 # lf
-alias lf="lfub"
+# alias lf="lfub"
 
 export LF_ICONS="\
 tw=:\
