@@ -268,43 +268,6 @@ eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.o
 # Added by zap installation script
 PATH=$PATH:$HOME/.local/bin
 
-# ble.sh - syntax highlighting for bash
-# source ~/.local/share/blesh/ble.sh
-
-# bleopt complete_auto_history=
-#
-# ble-face -s region                    none
-# ble-face -s region_target             none
-# ble-face -s region_match              none
-# ble-face -s disabled                  none
-# ble-face -s auto_complete             none
-# ble-face -s menu_filter_fixed         none
-# ble-face -s menu_filter_input         none
-# ble-face -s vbell                     none
-# ble-face -s vbell_erase               none
-# ble-face -s vbell_flash               none
-# ble-face -s prompt_status_line        none
-#
-# ble-face -s syntax_error fg=red
-# ble-face -s command_function fg=green
-# ble-face -s filename_directory        underline,fg=blue
-# ble-face -s filename_directory_sticky underline,fg=blue
-# ble-face -s filename_link             underline,fg=blue
-# ble-face -s filename_orphan           underline,fg=blue
-# ble-face -s filename_executable       underline,fg=green
-# ble-face -s filename_setuid           underline,fg=blue
-# ble-face -s filename_setgid           underline,fg=blue
-# ble-face -s filename_other            underline,fg=blue
-# ble-face -s filename_socket           underline,fg=blue
-# ble-face -s filename_pipe             underline,fg=blue
-# ble-face -s filename_character        underline,fg=blue
-# ble-face -s filename_block            underline,fg=blue
-# ble-face -s filename_warning          underline,fg=red
-# ble-face -s filename_url              underline,fg=blue
-# ble-face -s filename_ls_colors        underline
-# export VOLTA_HOME="$HOME/.volta"
-# export PATH="$VOLTA_HOME/bin:$PATH"
-
 # fnm
 # export PATH="~/.local/share/fnm:$PATH"
 # eval "`fnm env`"
