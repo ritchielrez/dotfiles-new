@@ -331,4 +331,8 @@ export PATH="~/opts/slint-viewer:$PATH"
 
 # nakst/gf (GDB frontend)
 export PATH="~/opts/gf/:$PATH"
+
 export CPM_SOURCE_CACHE=$HOME/.cache/cpm
+
+# Other third party softwares
+export PATH="~/opts/:$PATH"
