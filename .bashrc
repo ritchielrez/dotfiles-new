@@ -329,3 +329,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # slint-viewer
 export PATH="~/opts/slint-viewer:$PATH"
 
+# nakst/gf (GDB frontend)
+export PATH="~/opts/gf/:$PATH"
