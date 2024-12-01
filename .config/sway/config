@@ -20,7 +20,7 @@ seat seat0 xcursor_theme 'Bibata-Modern-Ice' 36
 # }
 
 # Color scheme
-include catppuccin-mocha
+include everforest
 
 # Includes
 include /etc/sway/config.d/*
