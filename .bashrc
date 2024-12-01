@@ -263,7 +263,7 @@ eval "$(zoxide init bash)"
 # export TERM=wezterm
 
 # Oh my posh, my bash prompt
-eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
+# eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
 # eval "$(/bin/brew shellenv)"
 # Added by zap installation script
 PATH=$PATH:$HOME/.local/bin
@@ -299,3 +299,6 @@ export CPM_SOURCE_CACHE=$HOME/.cache/cpm
 
 # Other third party softwares
 export PATH="~/opts/:$PATH"
+
+# Starship prompt
+eval "$(starship init bash)"
