@@ -1,0 +1,80 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+palette = "everforest"
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$cmd_duration\
+$c\
+$cmake\
+$rust\
+$line_break\
+$character"""
+
+[directory]
+style = "blue"
+
+[character]
+success_symbol = "[❯](statusline1)"
+error_symbol = "[❯](red)"
+# vimcmd_symbol = "[❮](green)"
+
+[git_branch]
+format = "[$branch](orange)"
+
+[git_status]
+format = "[[($conflicted$untracked$modified$staged$renamed$deleted)]($style) ($ahead_behind$stashed)]($style)"
+style = "aqua"
+stashed = "$ "
+ahead = " "
+behind = " "
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)](bg5)\) '
+
+[cmd_duration]
+format = "[$duration](yellow) "
+
+[c]
+detect_extensions = ['c', 'cpp', 'cpp2', 'h', 'hpp']
+detect_files = ['CMakeLists.txt', 'Makefile']
+format = "[c/c++ $name $version](yellow) "
+
+[cmake]
+format = "[cmake $version](red)"
+
+[rust]
+format = "[rust $version](red)"
+
+[palettes.everforest]
+fg          =  "#d3c6aa"
+bg_dim      =  "#232a2e"
+bg0         =  "#2d353b"
+bg1         =  "#343f44"
+bg2         =  "#3d484d"
+bg3         =  "#475258"
+bg4         =  "#4f585e"
+bg5         =  "#56635f"
+bg_reg      =  "#514045"
+bg_green    =  "#425047"
+bg_blue     =  "#3A515D"
+bg_yellow   =  "#4D4C43"
+red         =  "#E67E80"
+orange      =  "#E69875"
+yellow      =  "#DBBC7F"
+green       =  "#A7C080"
+aqua        =  "#83C092"
+blue        =  "#7FBBB3"
+purple      =  "#D699B6"
+grey0       =  "#7A8478"
+grey1       =  "#859289"
+grey2       =  "#9DA9A0"
+statusline1 =  "#A7C080"
+statusline2 =  "#D3C6AA"
+statusline3 =  "#E67E80"
