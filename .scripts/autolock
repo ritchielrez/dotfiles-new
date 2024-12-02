@@ -1,6 +1,6 @@
 #!/bin/sh
 
-lock='swaylock-effects'
+lock='gtklock'
 
 if pgrep -x 'swayidle'; then
     pkill swayidle
