@@ -7,7 +7,7 @@ cursor = "CellForeground"
 text = "CellBackground"
 
 [font]
-size = 10
+size = 12
 
 [font.bold]
 family = "MartianMono Nerd Font"
@@ -43,11 +43,11 @@ columns = 200
 lines = 60
 
 [window.padding]
-x = 20
-y = 20
+x = 10
+y = 10
 
 [env]
 TERM = "xterm-256color"
 
 [general]
-import = ["/home/ritux/.config/alacritty/catppuccin-mocha.toml"]
+import = ["/home/ritux/.config/alacritty/everforest.toml"]
