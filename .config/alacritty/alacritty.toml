@@ -7,7 +7,7 @@ cursor = "CellForeground"
 text = "CellBackground"
 
 [font]
-size = 12
+size = 10
 
 [font.bold]
 family = "MartianMono Nerd Font"
