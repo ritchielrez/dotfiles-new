@@ -222,7 +222,8 @@ alias rm=trash
 # bat
 export BAT_THEME=Nord
 
-# set EDITOR as neovim
+# neovim
+export PATH="~/opts/nvim/bin/:$PATH"
 export EDITOR="nvim"
 
 # Fish shell
@@ -249,8 +250,6 @@ export PATH="~/.scripts/:$PATH"
 
 export PATH="~/.local/share/nvim/mason/bin/:$PATH"
 
-export PATH=$PATH:/home/ritux/.spicetify
-
 # Homebrew package manager
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
@@ -266,8 +265,6 @@ eval "$(zoxide init bash)"
 # Oh my posh, my bash prompt
 # eval "$(oh-my-posh --init --shell bash --config $HOME/.config/oh-my-posh/zash1.omp.json)"
 # eval "$(/bin/brew shellenv)"
-# Added by zap installation script
-PATH=$PATH:$HOME/.local/bin
 
 # fnm
 # export PATH="~/.local/share/fnm:$PATH"
@@ -296,10 +293,11 @@ export PATH="~/opts/slint-viewer:$PATH"
 # nakst/gf (GDB frontend)
 export PATH="~/opts/gf/:$PATH"
 
+# cpm.cmake (C++ package manager)
 export CPM_SOURCE_CACHE=$HOME/.cache/cpm
-
-# Other third party softwares
-export PATH="~/opts/:$PATH"
 
 # Starship prompt
 eval "$(starship init bash)"
+
+# mise-en-place (version manager for development packages)
+export PATH="~/.local/share/mise/shims/:$PATH"
