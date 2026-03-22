@@ -223,7 +223,6 @@ alias rm=trash
 export BAT_THEME=Nord
 
 # neovim
-export PATH="~/opts/nvim/bin/:$PATH"
 export EDITOR="nvim"
 
 # Fish shell
