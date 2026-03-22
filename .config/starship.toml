@@ -1,7 +1,7 @@
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
-palette = "everforest"
+palette = "catppuccin_mocha"
 
 format = """
 $username\
@@ -14,6 +14,7 @@ $cmd_duration\
 $c\
 $cmake\
 $rust\
+$zig\
 $line_break\
 $character"""
 
@@ -21,16 +22,16 @@ $character"""
 style = "blue"
 
 [character]
-success_symbol = "[❯](statusline1)"
+success_symbol = "[❯](mauve)"
 error_symbol = "[❯](red)"
 # vimcmd_symbol = "[❮](green)"
 
 [git_branch]
-format = "[$branch](orange)"
+format = "[$branch](lavender)"
 
 [git_status]
 format = "[[($conflicted$untracked$modified$staged$renamed$deleted)]($style) ($ahead_behind$stashed)]($style)"
-style = "aqua"
+style = "blue"
 stashed = "$ "
 ahead = " "
 behind = " "
@@ -39,42 +40,71 @@ behind = " "
 format = '\([$state( $progress_current/$progress_total)](bg5)\) '
 
 [cmd_duration]
-format = "[$duration](yellow) "
+format = "[$duration](flamingo) "
 
 [c]
 detect_extensions = ['c', 'cpp', 'cpp2', 'h', 'hpp']
 detect_files = ['CMakeLists.txt', 'Makefile']
-format = "[c/c++ $name $version](yellow) "
+format = "[c/c++ $name $version](maroon) "
 
 [cmake]
-format = "[cmake $version](red)"
+format = "[cmake $version](peach)"
 
 [rust]
 format = "[rust $version](red)"
 
+[zig]
+format = "[zig $version](yellow)"
+detect_extensions = ['zig']
+
 [palettes.everforest]
-fg          =  "#d3c6aa"
-bg_dim      =  "#232a2e"
-bg0         =  "#2d353b"
-bg1         =  "#343f44"
-bg2         =  "#3d484d"
-bg3         =  "#475258"
-bg4         =  "#4f585e"
-bg5         =  "#56635f"
-bg_reg      =  "#514045"
-bg_green    =  "#425047"
-bg_blue     =  "#3A515D"
-bg_yellow   =  "#4D4C43"
-red         =  "#E67E80"
-orange      =  "#E69875"
-yellow      =  "#DBBC7F"
-green       =  "#A7C080"
-aqua        =  "#83C092"
-blue        =  "#7FBBB3"
-purple      =  "#D699B6"
-grey0       =  "#7A8478"
-grey1       =  "#859289"
-grey2       =  "#9DA9A0"
-statusline1 =  "#A7C080"
-statusline2 =  "#D3C6AA"
-statusline3 =  "#E67E80"
+fg = "#d3c6aa"
+bg_dim = "#232a2e"
+bg0 = "#2d353b"
+bg1 = "#343f44"
+bg2 = "#3d484d"
+bg3 = "#475258"
+bg4 = "#4f585e"
+bg5 = "#56635f"
+bg_reg = "#514045"
+bg_green = "#425047"
+bg_blue = "#3A515D"
+bg_yellow = "#4D4C43"
+red = "#E67E80"
+orange = "#E69875"
+yellow = "#DBBC7F"
+green = "#A7C080"
+aqua = "#83C092"
+blue = "#7FBBB3"
+purple = "#D699B6"
+grey0 = "#7A8478"
+grey1 = "#859289"
+grey2 = "#9DA9A0"
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
