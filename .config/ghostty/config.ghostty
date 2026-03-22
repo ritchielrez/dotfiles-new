@@ -1,0 +1,8 @@
+theme = Catppuccin Mocha
+window-decoration = none
+
+confirm-close-surface = false
+
+keybind = ctrl+shift+5=new_split:down
+keybind = ctrl+shift+'=new_split:right
+keybind = ctrl+shift+x=close_surface
