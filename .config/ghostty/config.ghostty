@@ -1,5 +1,9 @@
 theme = Catppuccin Mocha
 window-decoration = none
+background = #181825
+
+window-padding-x = 20
+window-padding-y = 10
 
 confirm-close-surface = false
 
