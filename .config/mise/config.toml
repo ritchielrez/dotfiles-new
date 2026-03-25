@@ -1,0 +1,17 @@
+[tools]
+"github:cli/cli" = "latest"
+"github:neovim/neovim" = "latest"
+"vfox:version-fox/vfox-cmake" = "latest"
+zig = "latest"
+"github:zed-industries/zed" = "latest"
+go = "latest"
+
+[tools."http:vicinae-install-script"]
+version = "latest"
+
+[tools."http:vicinae-install-script".platforms]
+linux-x64 = { 
+  url = "https://vicinae.com/install.sh",
+  bin = "vicinae-install"
+}
+
