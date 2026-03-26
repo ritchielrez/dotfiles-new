@@ -192,8 +192,8 @@ window#waybar.hidden {
   padding-right: 10px;
   border-radius: 10px;
   transition: none;
-  color: #89DCEB;
-  background: #161320;
+  color: #cba6f7;
+  background: #181825;
 }
 
 #custom-power {
