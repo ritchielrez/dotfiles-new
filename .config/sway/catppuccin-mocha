@@ -11,7 +11,7 @@ set $sky       #89dceb
 set $sapphire  #74c7ec
 set $blue      #89b4fa
 set $lavender  #b4befe
-set $text      #cdd6f4
+set $fg      #cdd6f4
 set $subtext1  #bac2de
 set $subtext0  #a6adc8
 set $overlay2  #9399b2
@@ -23,3 +23,7 @@ set $surface0  #313244
 set $base      #1e1e2e
 set $mantle    #181825
 set $crust     #11111b
+set $bg0 $crust
+set $bg1 $mantle
+set $bg2 $base
+set $statusline1 $mauve
