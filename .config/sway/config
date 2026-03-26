@@ -6,7 +6,6 @@ output * bg /home/ritchiel/Pictures/artificial-valley.jpg fill
 font pango:MartianMono Nerd Font 10
 
 #
-# GTK theming(not needed, just use nwg-look)
 # GTK theming (not needed, just use nwg-look)
 #
 set $gnome-schema org.gnome.desktop.interface
@@ -21,7 +20,7 @@ exec_always {
 }
 
 # Color scheme
-include everforest
+include catppuccin-mocha
 
 # Includes
 include /etc/sway/config.d/*
