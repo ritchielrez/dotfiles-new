@@ -7,17 +7,18 @@ font pango:MartianMono Nerd Font 10
 
 #
 # GTK theming(not needed, just use nwg-look)
+# GTK theming (not needed, just use nwg-look)
 #
-# set $gnome-schema org.gnome.desktop.interface
-seat seat0 xcursor_theme 'Bibata-Modern-Ice' 36
-# exec_always {
-#     gsettings set $gnome-schema gtk-theme 'Catppuccin-Mocha-Standard-Lavender-dark'
-#     gsettings set $gnome-schema icon-theme 'Papirus-Dark'
-#     gsettings set $gnome-schema cursor-theme 'Bibata-Rainbow-Modern'
-#     gsettings set $gnome-schema cursor-size '24'
-#     gsettings set $gnome-schema font-name 'CaskaydiaCove Nerd Font 11'
-#     # gsettings set $gnome-schema text-scaling-factor 1.25
-# }
+set $gnome-schema org.gnome.desktop.interface
+seat seat0 xcursor_theme 'Bibata-Modern-Ice' 24
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'catppuccin-mocha-mauve-standard+default'
+    gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+    gsettings set $gnome-schema cursor-theme 'Bibata-Modern-Ice'
+    gsettings set $gnome-schema cursor-size '24'
+    gsettings set $gnome-schema font-name 'MartianMono Nerd Font 10'
+    # gsettings set $gnome-schema text-scaling-factor 1.25
+}
 
 # Color scheme
 include everforest
