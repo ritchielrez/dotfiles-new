@@ -1,0 +1,96 @@
+{
+  "layer": "top",
+  "modules-left": ["custom/launcher"],
+  "modules-center": ["sway/workspaces"],
+  "modules-right": ["backlight","network","pulseaudio","clock", "battery","custom/power"],
+
+  "sway/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "urgent": "",
+      "active": "",
+      "default": ""
+    },
+    "sort-by-number": true
+  },
+
+  "pulseaudio": {
+    "tooltip": false,
+    "scroll-step": 5,
+    "format": "{icon} {volume}%",
+    "format-muted": "{icon} {volume}%",
+    "format-source-muted": "{icon} {volume}%",
+    "on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "format-icons": {
+      "default": ["", "", ""]
+    }
+  },
+
+  "backlight": {
+    "tooltip": false,
+    "format": " {}%",
+    "interval":1,
+    "on-scroll-up": "brillo -A 5",
+    "on-scroll-down": "brillo -U 5"
+  },
+
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "{icon}  {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "tray":{
+    "icon-size":18,
+    "spacing": 10
+  },
+
+  "clock": {
+    "format": "{: %I:%M 󰃮 %d/%m/%Y}"
+  },
+
+  "cpu": {
+    "interval": 15,
+    "format": " {}%",
+    "max-length": 10
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": " {}%",
+    "max-length": 10
+  },
+
+  "network": {
+    "interface": "wlx200db03920ef",
+    "format": "{ifname}",
+    "format-wifi": " {essid} ({signalStrength}%)",
+    "format-ethernet": " {ipaddr}/{cidr}",
+    "format-disconnected": "", //An empty format will hide the module.
+    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  },
+
+  "custom/launcher":{
+    "tooltip": false,
+    "format": "󱓞",
+    "on-click": "vicinae toggle",
+    "on-click-right": "vicinae toggle"
+  },
+}
