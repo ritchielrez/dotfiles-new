@@ -1,6 +1,6 @@
 # Output configuration
-# output * bg /home/ritux/Pictures/wallpapers/mocha.png fill
-exec ~/.azotebg
+output * bg /home/ritchiel/Pictures/artificial-valley.jpg fill
+# exec ~/.azotebg
 
 # Font
 font pango:MartianMono Nerd Font 10
