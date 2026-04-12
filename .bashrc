@@ -252,9 +252,6 @@ export PATH="~/.local/share/nvim/mason/bin/:$PATH"
 # Homebrew package manager
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# zoxide(https://github.com/ajeetdsouza/zoxide) configuration
-eval "$(zoxide init bash)"
-
 # vcpkg cmake integration
 # export CMAKE_TOOLCHAIN_FILE=$HOME/dev/vcpkg/scripts/buildsystems/vcpkg.cmake
 
@@ -300,3 +297,6 @@ eval "$(starship init bash)"
 
 # mise-en-place (version manager for development packages)
 export PATH="~/.local/share/mise/shims/:$PATH"
+
+# zoxide(https://github.com/ajeetdsouza/zoxide) configuration
+eval "$(zoxide init bash)"
