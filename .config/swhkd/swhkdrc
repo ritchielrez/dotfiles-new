@@ -5,19 +5,19 @@ super + e
 	nemo
 
 super + w
-    librewolf
+  librewolf
 
 super + .
-    ~/.scripts/rofiemoji
+  ~/.scripts/rofiemoji
 
 super + t
-	~/.scripts/datetime
+  ~/.scripts/datetime
 
 super + shift + `
-    wl-color-picker
+  wl-color-picker
 
 super + shift + s
-    flameshot gui
+  flameshot gui
 
 Print
-    flameshot screen
+  flameshot screen
