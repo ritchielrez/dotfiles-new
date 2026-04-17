@@ -5,6 +5,10 @@
 zig = "latest"
 "github:zed-industries/zed" = "latest"
 go = "latest"
+rust = "latest"
+cargo-binstall = "latest"
+"cargo:stylua" = "latest"
+"cargo:selene" = "latest"
 
 [tools."http:vicinae-install-script"]
 version = "latest"
@@ -14,4 +18,9 @@ linux-x64 = {
   url = "https://vicinae.com/install.sh",
   bin = "vicinae-install"
 }
+
+[settings]
+
+[settings.cargo]
+binstall = true
 
