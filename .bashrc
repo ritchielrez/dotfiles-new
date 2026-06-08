@@ -301,5 +301,8 @@ eval "$(mise activate bash)"
 # opencode
 export PATH=/home/ritchiel/.opencode/bin:$PATH
 
+# usagi - pico 8 like fantasy console experience in lua
+export PATH="/home/ritchiel/.usagi/bin:$PATH"
+
 # zoxide(https://github.com/ajeetdsouza/zoxide) configuration
 eval "$(zoxide init bash)"
