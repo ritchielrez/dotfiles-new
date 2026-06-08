@@ -295,8 +295,11 @@ export CPM_SOURCE_CACHE=$HOME/.cache/cpm
 # Starship prompt
 eval "$(starship init bash)"
 
-# mise-en-place (version manager for development packages)
-export PATH="~/.local/share/mise/shims/:$PATH"
+# mise-en-place
+eval "$(mise activate bash)"
+
+# opencode
+export PATH=/home/ritchiel/.opencode/bin:$PATH
 
 # zoxide(https://github.com/ajeetdsouza/zoxide) configuration
 eval "$(zoxide init bash)"
