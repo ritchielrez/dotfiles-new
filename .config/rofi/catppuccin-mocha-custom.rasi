@@ -13,7 +13,8 @@
 window {
     background-color: @bg-col;
     border-color: @border-col;
-    border: 3px;
+    border-radius: 10;
+    border: 2px;
     padding: 5px;
     width: 30%;
     height: 40%;
