@@ -1,0 +1,9 @@
+std = "special"
+
+[lints]
+mixed_table = "allow"
+
+[selene]
+base = "lua54"
+name = "hyprland"
+
