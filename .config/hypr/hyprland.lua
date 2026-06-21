@@ -47,13 +47,13 @@ hl.env("HYPRCURSOR_SIZE", "24")
 hl.config({
 	general = {
 		gaps_in = 5,
-		gaps_out = 20,
+		gaps_out = 5,
 
-		border_size = 2,
+		border_size = 3,
 
 		col = {
-			active_border = "rgba(cba6f7aa)",
-			inactive_border = "rgba(cba6f755)",
+			active_border = "rgba(cba6f7ff)",
+			inactive_border = "rgba(cba6f7aa)",
 		},
 
 		-- Set to true to enable resizing windows by clicking and dragging on borders and gaps
