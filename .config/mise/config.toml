@@ -12,16 +12,7 @@ cargo-binstall = "latest"
 "cargo:tree-sitter-cli" = "latest"
 cmake = "latest"
 python = "latest"
-[tools."http:vicinae-install-script"]
-version = "latest"
-
-[tools."http:vicinae-install-script".platforms]
-linux-x64 = { 
-  url = "https://vicinae.com/install.sh",
-  bin = "vicinae-install"
-}
-
-[settings]
+"pipx:trash-cli" = "latest"
 
 [settings.cargo]
 binstall = true
