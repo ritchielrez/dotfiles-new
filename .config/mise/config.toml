@@ -11,7 +11,7 @@ cargo-binstall = "latest"
 "cargo:starship" = "latest"
 "cargo:tree-sitter-cli" = "latest"
 cmake = "latest"
-
+python = "latest"
 [tools."http:vicinae-install-script"]
 version = "latest"
 
