@@ -1,4 +1,5 @@
 font-family = "MartianMono Nerd Font Propo"
+font-size = 10.0
 theme = Catppuccin Mocha
 window-decoration = none
 background = #181825
