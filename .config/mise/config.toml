@@ -8,6 +8,7 @@ rust = "latest"
 cargo-binstall = "latest"
 "cargo:stylua" = "latest"
 "cargo:selene" = "latest"
+"cargo:starship" = "latest"
 cmake = "latest"
 
 [tools."http:vicinae-install-script"]

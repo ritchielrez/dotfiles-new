@@ -292,11 +292,11 @@ export PATH="~/opts/gf/:$PATH"
 # cpm.cmake (C++ package manager)
 export CPM_SOURCE_CACHE=$HOME/.cache/cpm
 
-# Starship prompt
-eval "$(starship init bash)"
-
 # mise-en-place
 eval "$(mise activate bash)"
+
+# Starship prompt
+eval "$(starship init bash)"
 
 # opencode
 export PATH=/home/ritchiel/.opencode/bin:$PATH
