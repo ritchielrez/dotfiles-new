@@ -1,6 +1,9 @@
 import QtQuick
 import QtQuick.Layouts
 
+// This needs to be installed seperately
+import Niri
+
 import "../../styles/"
 
 Rectangle {
@@ -16,6 +19,17 @@ Rectangle {
     NumberAnimation {
       duration: 100
       easing.type: Easing.OutQuad
+    }
+  }
+
+  // Connect to niri ipc using qs-niri module
+  Niri {
+    id: niri
+
+    Component.onCompleted: connect()
+    onConnected: console.log("Connected to niri")
+    onErrorOccurred: function (error) {
+      console.error("Connection error:", error);
     }
   }
 
