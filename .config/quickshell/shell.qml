@@ -109,8 +109,6 @@ ShellRoot {
                 anchors.rightMargin: 10
 
                 Rectangle {
-                    id: clock
-
                     color: fg
                     implicitWidth: clock_text.implicitWidth + 20
                     implicitHeight: barHeight
@@ -124,13 +122,11 @@ ShellRoot {
                         font.family: fontFamily
                         font.pixelSize: fontSize
 
-                        text: Qt.formatDateTime(new Date(), "ddd, dd/MM/yy - hh:mm AP")
+                        text: Qt.formatDateTime(clock.date, "ddd, dd/MM/yy - hh:mm AP")
 
-                        Timer {
-                            interval: 60000
-                            running: true
-                            repeat: true
-                            onTriggered: clock.text = Qt.formatDateTime(new Date(), "ddd, dd/MM/yy - hh:mm AP")
+                        SystemClock {
+                            id: clock
+                            precision: SystemClock.Minutes
                         }
                     }
                 }
