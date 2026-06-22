@@ -8,6 +8,7 @@ PanelWindow {
   anchors.top: true
   anchors.left: true
   anchors.right: true
+  margins.top: 10
   implicitHeight: 30
   color: "transparent"
 
