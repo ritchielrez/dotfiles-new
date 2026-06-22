@@ -13,6 +13,7 @@ cargo-binstall = "latest"
 cmake = "latest"
 python = "latest"
 "pipx:trash-cli" = "latest"
+"cargo:just" = "latest"
 
 [settings.cargo]
 binstall = true
