@@ -1,45 +1,55 @@
 import QtQuick
 import QtQuick.Layouts
 
+import "../../styles/"
+
 Rectangle {
-    id: workspaces
+  id: workspaces
+  required property int barHeight
 
-    color: primary
-    implicitWidth: workspacesRow.implicitWidth + 20
-    implicitHeight: barHeight
-    radius: 5
+  color: Colors.bg
+  implicitWidth: workspacesRow.implicitWidth + 20
+  implicitHeight: barHeight
+  radius: 5
 
-    RowLayout {
-        id: workspacesRow
-
-        anchors.centerIn: parent
-        spacing: 15
-
-        Repeater {
-            model: niri.workspaces
-
-            delegate: Rectangle {
-                implicitWidth: workspaceText.implicitWidth + 8
-                implicitHeight: workspaceText.implicitHeight + 8
-                color: model.isFocused ? secondary : "transparent"
-                radius: 5
-
-                Text {
-                    id: workspaceText
-
-                    anchors.centerIn: parent
-                    text: model.index
-                    color: bg
-                    font.family: fontFamily
-                    font.pixelSize: fontSize
-
-                    MouseArea {
-                        anchors.fill: parent
-                        cursorShape: Qt.PointingHandCursor
-                        onClicked: niri.focusWorkspaceById(model.id)
-                    }
-                }
-            }
-        }
+  Behavior on implicitWidth {
+    NumberAnimation {
+      duration: 100
+      easing.type: Easing.OutQuad
     }
+  }
+
+  RowLayout {
+    id: workspacesRow
+
+    anchors.centerIn: parent
+    spacing: 10
+
+    Repeater {
+      model: niri.workspaces
+
+      delegate: Rectangle {
+        implicitWidth: workspaceText.implicitWidth + 16
+        implicitHeight: workspaceText.implicitHeight + 8
+        color: model.isFocused ? Colors.secondary : "transparent"
+        radius: 5
+
+        Text {
+          id: workspaceText
+
+          anchors.centerIn: parent
+          text: model.index
+          color: model.isFocused ? Colors.bg : Colors.fg
+          font.family: FontCfg.family
+          font.pixelSize: FontCfg.size
+        }
+
+        MouseArea {
+          anchors.fill: parent
+          cursorShape: Qt.PointingHandCursor
+          onClicked: niri.focusWorkspaceById(model.id)
+        }
+      }
+    }
+  }
 }

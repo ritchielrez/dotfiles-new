@@ -3,47 +3,45 @@ import QtQuick
 import QtQuick.Layouts
 
 PanelWindow {
-    id: bar
+  id: bar
 
-    anchors.top: true
-    anchors.left: true
-    anchors.right: true
-    implicitHeight: barHeight
+  anchors.top: true
+  anchors.left: true
+  anchors.right: true
+  implicitHeight: 30
+  color: "transparent"
+
+  Rectangle {
+    anchors.fill: parent
     color: "transparent"
 
-    Rectangle {
-        anchors.fill: parent
-        color: "transparent"
+    RowLayout {
+      id: bar_left
 
-        RowLayout {
-            id: bar_left
-
-            anchors.left: parent.left
-            anchors.verticalCenter: parent.verticalCenter
-            anchors.leftMargin: 10
-        }
-
-        RowLayout {
-            id: bar_center
-
-            anchors.centerIn: parent
-            Loader {
-                active: true
-                sourceComponent: Workspaces {}
-            }
-        }
-
-        RowLayout {
-            id: bar_right
-
-            anchors.right: parent.right
-            anchors.verticalCenter: parent.verticalCenter
-            anchors.rightMargin: 10
-
-            Loader {
-                active: true
-                sourceComponent: Clock {}
-            }
-        }
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.leftMargin: 10
     }
+
+    RowLayout {
+      id: bar_center
+
+      anchors.centerIn: parent
+      Workspaces {
+        barHeight: bar.implicitHeight
+      }
+    }
+
+    RowLayout {
+      id: bar_right
+
+      anchors.right: parent.right
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.rightMargin: 10
+
+      Clock {
+        barHeight: bar.implicitHeight
+      }
+    }
+  }
 }
