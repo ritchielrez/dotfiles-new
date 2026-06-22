@@ -1,9 +1,10 @@
 import Quickshell
-import Quickshell.Wayland
 import QtQuick
-import QtQuick.Layouts
+
 // This needs to be installed seperately
 import Niri
+
+import "./modules/bar/"
 
 ShellRoot {
     id: root
@@ -23,6 +24,7 @@ ShellRoot {
     // Connect to niri ipc using qs-niri module
     Niri {
         id: niri
+
         Component.onCompleted: connect()
         onConnected: console.log("Connected to niri")
         onErrorOccurred: function (error) {
@@ -30,107 +32,8 @@ ShellRoot {
         }
     }
 
-    // Top bar
-    PanelWindow {
-        id: bar
-
-        anchors.top: true
-        anchors.left: true
-        anchors.right: true
-        implicitHeight: barHeight
-        color: "transparent"
-
-        Rectangle {
-            anchors.fill: parent
-            color: "transparent"
-
-            RowLayout {
-                id: bar_left
-
-                anchors.left: parent.left
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.leftMargin: 10
-            }
-
-            RowLayout {
-                id: bar_center
-
-                anchors.centerIn: parent
-
-                Rectangle {
-                    id: workspaces
-
-                    color: primary
-                    implicitWidth: workspacesRow.implicitWidth + 20
-                    implicitHeight: barHeight
-                    radius: 5
-
-                    RowLayout {
-                        id: workspacesRow
-
-                        anchors.centerIn: parent
-                        spacing: 15
-
-                        Repeater {
-                            model: niri.workspaces
-
-                            delegate: Rectangle {
-                                implicitWidth: workspaceText.implicitWidth + 8
-                                implicitHeight: workspaceText.implicitHeight + 8
-                                color: model.isFocused ? secondary : "transparent"
-                                radius: 5
-
-                                Text {
-                                    id: workspaceText
-
-                                    anchors.centerIn: parent
-                                    text: model.index
-                                    color: bg
-                                    font.family: fontFamily
-                                    font.pixelSize: fontSize
-
-                                    MouseArea {
-                                        anchors.fill: parent
-                                        cursorShape: Qt.PointingHandCursor
-                                        onClicked: niri.focusWorkspaceById(model.id)
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            RowLayout {
-                id: bar_right
-
-                anchors.right: parent.right
-                anchors.verticalCenter: parent.verticalCenter
-                anchors.rightMargin: 10
-
-                Rectangle {
-                    color: fg
-                    implicitWidth: clock_text.implicitWidth + 20
-                    implicitHeight: barHeight
-                    radius: 5
-
-                    Text {
-                        id: clock_text
-
-                        color: bg
-                        anchors.centerIn: parent
-                        font.family: fontFamily
-                        font.pixelSize: fontSize
-
-                        text: Qt.formatDateTime(clock.date, "ddd, dd/MM/yy - hh:mm AP")
-
-                        SystemClock {
-                            id: clock
-                            precision: SystemClock.Minutes
-                        }
-                    }
-                }
-            }
-        }
+    LazyLoader {
+        active: true
+        component: Bar {}
     }
 }
