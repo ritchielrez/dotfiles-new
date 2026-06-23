@@ -12,37 +12,37 @@ PanelWindow {
   implicitHeight: 30
   color: "transparent"
 
-  Rectangle {
-    anchors.fill: parent
-    color: "transparent"
+  RowLayout {
+    id: bar_left
 
-    RowLayout {
-      id: bar_left
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.leftMargin: 10
 
-      anchors.left: parent.left
-      anchors.verticalCenter: parent.verticalCenter
-      anchors.leftMargin: 10
+    Workspaces {
+      barHeight: bar.implicitHeight
     }
+  }
 
-    RowLayout {
-      id: bar_center
+  RowLayout {
+    id: bar_center
 
-      anchors.centerIn: parent
-      Workspaces {
-        barHeight: bar.implicitHeight
-      }
+    anchors.centerIn: parent
+
+    Clock {
+      barHeight: bar.implicitHeight
     }
+  }
 
-    RowLayout {
-      id: bar_right
+  RowLayout {
+    id: bar_right
 
-      anchors.right: parent.right
-      anchors.verticalCenter: parent.verticalCenter
-      anchors.rightMargin: 10
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.rightMargin: 10
 
-      Clock {
-        barHeight: bar.implicitHeight
-      }
+    Volume {
+      barHeight: bar.implicitHeight
     }
   }
 }
