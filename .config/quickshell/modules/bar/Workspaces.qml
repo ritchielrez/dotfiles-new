@@ -1,3 +1,5 @@
+pragma ComponentBehavior: Bound
+
 import QtQuick
 import QtQuick.Layouts
 
@@ -43,6 +45,8 @@ Rectangle {
       model: niri.workspaces
 
       delegate: Rectangle {
+        required property var model
+
         implicitWidth: workspaceText.implicitWidth + 16
         implicitHeight: workspaceText.implicitHeight + 8
         color: model.isFocused ? Colors.secondary : "transparent"
@@ -52,8 +56,8 @@ Rectangle {
           id: workspaceText
 
           anchors.centerIn: parent
-          text: model.index
-          color: model.isFocused ? Colors.bg : Colors.fg
+          text: parent.model.index
+          color: parent.model.isFocused ? Colors.bg : Colors.fg
           font.family: FontCfg.family
           font.pixelSize: FontCfg.size
         }
@@ -61,7 +65,7 @@ Rectangle {
         MouseArea {
           anchors.fill: parent
           cursorShape: Qt.PointingHandCursor
-          onClicked: niri.focusWorkspaceById(model.id)
+          onClicked: niri.focusWorkspace(parent.model.id)
         }
       }
     }
