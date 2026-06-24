@@ -5,6 +5,13 @@ import QtQuick.Layouts
 import "../../styles/"
 
 Rectangle {
+  id: volume
+  property var sink: Pipewire.defaultAudioSink
+
+  readonly property bool ready: sink && sink.ready
+  readonly property bool muted: ready && sink.audio.muted
+  readonly property int vol: ready ? Math.round(sink.audio.volume * 100) : 0
+
   required property int barHeight
   color: Colors.orange
   implicitWidth: volume_icon_text.implicitWidth + volume_text.implicitWidth + 20
@@ -12,24 +19,17 @@ Rectangle {
   radius: 5
 
   RowLayout {
-    id: volume
-    property var sink: Pipewire.defaultAudioSink
-
-    readonly property bool ready: sink && sink.ready
-    readonly property bool muted: ready && sink.audio.muted
-    readonly property int vol: ready ? Math.round(sink.audio.volume * 100) : 0
-
     spacing: 7
     anchors.centerIn: parent
 
     readonly property string icon: {
-      if (!ready || muted) {
+      if (!volume.ready || volume.muted) {
         return "";
       }
 
-      if (vol === 0) {
+      if (volume.vol === 0) {
         return "";
-      } else if (vol < 75) {
+      } else if (volume.vol < 75) {
         return "";
       } else {
         return "";
@@ -47,15 +47,15 @@ Rectangle {
     Text {
       id: volume_text
       text: {
-        if (!parent.ready) {
+        if (!volume.ready) {
           return "-";
         }
 
-        if (parent.muted) {
+        if (volume.muted) {
           return "muted";
         }
 
-        return parent.vol + "%";
+        return volume.vol + "%";
       }
       color: Colors.bg
       font.family: FontCfg.family
