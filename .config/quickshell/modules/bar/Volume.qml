@@ -16,7 +16,7 @@ Rectangle {
   color: Colors.orange
   implicitWidth: volume_icon_text.implicitWidth + volume_text.implicitWidth + 20
   implicitHeight: barHeight
-  radius: 5
+  radius: BarCfg.borderRadius
 
   RowLayout {
     spacing: 7

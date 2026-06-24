@@ -8,7 +8,7 @@ Rectangle {
   color: Colors.fg
   implicitWidth: clock_text.implicitWidth + 20
   implicitHeight: barHeight
-  radius: 5
+  radius: BarCfg.borderRadius
 
   Text {
     id: clock_text

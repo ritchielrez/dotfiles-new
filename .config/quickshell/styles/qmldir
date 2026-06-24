@@ -1,0 +1,3 @@
+singleton BarCfg 1.0 BarCfg.qml
+singleton Colors 1.0 Colors.qml
+singleton FontCfg 1.0 FontCfg.qml

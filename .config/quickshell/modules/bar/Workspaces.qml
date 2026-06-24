@@ -15,7 +15,7 @@ Rectangle {
   color: Colors.bg
   implicitWidth: workspacesRow.implicitWidth + 20
   implicitHeight: barHeight
-  radius: 5
+  radius: BarCfg.borderRadius
 
   Behavior on implicitWidth {
     NumberAnimation {
@@ -50,7 +50,7 @@ Rectangle {
         implicitWidth: workspaceText.implicitWidth + 16
         implicitHeight: workspaceText.implicitHeight + 8
         color: model.isFocused ? Colors.secondary : "transparent"
-        radius: 5
+        radius: BarCfg.borderRadius
 
         Text {
           id: workspaceText
