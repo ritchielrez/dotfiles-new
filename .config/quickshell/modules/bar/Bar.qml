@@ -41,7 +41,12 @@ PanelWindow {
     anchors.verticalCenter: parent.verticalCenter
     anchors.rightMargin: 10
 
+    spacing: 10
+
     Volume {
+      barHeight: bar.implicitHeight
+    }
+    Tray {
       barHeight: bar.implicitHeight
     }
   }
