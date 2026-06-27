@@ -19,7 +19,7 @@ Rectangle {
 
   Behavior on implicitWidth {
     NumberAnimation {
-      duration: 100
+      duration: 250
       easing.type: Easing.OutQuad
     }
   }
@@ -30,7 +30,7 @@ Rectangle {
 
     Component.onCompleted: connect()
     onConnected: console.log("Connected to niri")
-    onErrorOccurred: function (error) {
+    onErrorOccurred: error => {
       console.error("Connection error:", error);
     }
   }
@@ -38,8 +38,9 @@ Rectangle {
   RowLayout {
     id: workspacesRow
 
-    anchors.centerIn: parent
-    spacing: 10
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.leftMargin: 10
 
     Repeater {
       model: niri.workspaces
@@ -63,9 +64,11 @@ Rectangle {
         }
 
         MouseArea {
+          Accessible.role: Accessible.Button
+          Accessible.name: "Workspace " + parent.model.index
           anchors.fill: parent
           cursorShape: Qt.PointingHandCursor
-          onClicked: niri.focusWorkspace(parent.model.id)
+          onClicked: niri.focusWorkspaceById(parent.model.id)
         }
       }
     }
