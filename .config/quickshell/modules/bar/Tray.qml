@@ -13,7 +13,24 @@ Rectangle {
   implicitWidth: trayRow.implicitWidth + 20
   implicitHeight: barHeight
   radius: BarCfg.borderRadius
-  visible: SystemTray.items.values.length != 0
+
+  property bool trayShown: SystemTray.items.values.length != 0
+  visible: trayShown || opacity > 0
+  opacity: trayShown ? 1 : 0
+
+  Behavior on opacity {
+    NumberAnimation {
+      duration: 250
+      easing.type: Easing.InOutQuad
+    }
+  }
+
+  Behavior on implicitWidth {
+    NumberAnimation {
+      duration: 250
+      easing.type: Easing.InOutQuad
+    }
+  }
 
   RowLayout {
     id: trayRow
@@ -32,7 +49,8 @@ Rectangle {
 
         IconImage {
           id: trayIcon
-          anchors.centerIn: parent
+          anchors.right: parent.right
+          anchors.verticalCenter: parent.verticalCenter
           source: trayDelegate.modelData.icon
           implicitSize: 16
         }
@@ -44,7 +62,7 @@ Rectangle {
           anchor.adjustment: PopupAdjustment.Flip
           anchor.onAnchoring: {
             const window = trayDelegate.QsWindow.window;
-            const widgetRect = window.contentItem.mapFromItem(trayDelegate, 0, trayDelegate.height, trayDelegate.width, trayDelegate.height);
+            const widgetRect = window.contentItem.mapFromItem(trayDelegate, 0, trayDelegate.height, trayDelegate.width + 20, trayDelegate.height);
             menuAnchor.anchor.rect = widgetRect;
           }
         }
@@ -58,13 +76,10 @@ Rectangle {
           onClicked: mouse => {
             if (mouse.button === Qt.LeftButton) {
               trayDelegate.modelData.activate();
-              console.log("left click");
             } else if (mouse.button === Qt.RightButton) {
               menuAnchor.open();
-              console.log("right click");
             } else {
               trayDelegate.modelData.secondaryActivate();
-              console.log("middle click");
             }
           }
         }
