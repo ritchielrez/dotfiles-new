@@ -5,8 +5,10 @@ import QtQuick
 
 import "./modules/"
 import "./modules/bar/"
+import "./modules/notifications/"
 
 ShellRoot {
   ReloadPopup {}
+  Notifications {}
   Bar {}
 }
