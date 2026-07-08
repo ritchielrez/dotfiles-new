@@ -167,6 +167,7 @@ layout {
 
 spawn-at-startup "/usr/libexec/xfce-polkit"
 spawn-sh-at-startup "pipewire"
+spawn-sh-at-startup "wireplumber"
 spawn-sh-at-startup "~/.azotebg"
 spawn-sh-at-startup "qs"
 
