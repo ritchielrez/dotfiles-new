@@ -46,11 +46,13 @@ Rectangle {
       model: niri.workspaces
 
       delegate: Rectangle {
+        id: workspacesBtn
         required property var model
+        property bool hovered: false
 
         implicitWidth: workspaceText.implicitWidth + 16
         implicitHeight: workspaceText.implicitHeight + 8
-        color: model.isFocused ? Colors.secondary : "transparent"
+        color: model.isFocused || hovered ? Colors.secondary : "transparent"
         radius: BarCfg.borderRadius
 
         Text {
@@ -58,9 +60,9 @@ Rectangle {
 
           anchors.centerIn: parent
           text: parent.model.index
-          color: parent.model.isFocused ? Colors.bg : Colors.fg
+          color: parent.model.isFocused || parent.hovered ? Colors.bg : Colors.fg
           font.family: FontCfg.family
-          font.pixelSize: FontCfg.size
+          font.pixelSize: parent.hovered ? FontCfg.size + 2 : FontCfg.size
         }
 
         MouseArea {
@@ -68,7 +70,10 @@ Rectangle {
           Accessible.name: "Workspace " + parent.model.index
           anchors.fill: parent
           cursorShape: Qt.PointingHandCursor
+          hoverEnabled: true
           onClicked: niri.focusWorkspaceById(parent.model.id)
+          onEntered: workspacesBtn.hovered = true
+          onExited: workspacesBtn.hovered = false
         }
       }
     }
