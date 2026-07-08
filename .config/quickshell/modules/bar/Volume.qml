@@ -14,9 +14,16 @@ Rectangle {
 
   required property int barHeight
   color: Colors.orange
-  implicitWidth: volume_icon_text.implicitWidth + volume_text.implicitWidth + 20
+  implicitWidth: volumeIconText.implicitWidth + volumeText.implicitWidth + 20
   implicitHeight: barHeight
   radius: BarCfg.borderRadius
+
+  Behavior on implicitWidth {
+    NumberAnimation {
+      duration: 250
+      easing.type: Easing.InOutQuad
+    }
+  }
 
   RowLayout {
     spacing: 7
@@ -37,7 +44,7 @@ Rectangle {
     }
 
     Text {
-      id: volume_icon_text
+      id: volumeIconText
       text: parent.icon
       color: Colors.bg
       font.family: FontCfg.family
@@ -45,8 +52,9 @@ Rectangle {
     }
 
     Text {
-      id: volume_text
-      text: {
+      id: volumeText
+      property string displayText: {
+        property: "name";
         if (!volume.ready) {
           return "-";
         }
@@ -56,6 +64,16 @@ Rectangle {
         }
 
         return volume.vol + "%";
+      }
+      text: displayText
+      Timer {
+        id: volumeTextTimer
+        interval: 125
+        repeat: false
+      }
+      onDisplayTextChanged: {
+        if (!volumeTextTimer.running)
+          volumeTextTimer.start();
       }
       color: Colors.bg
       font.family: FontCfg.family
@@ -69,6 +87,8 @@ Rectangle {
   }
 
   MouseArea {
+    Accessible.role: Accessible.Button
+    Accessible.name: "Toggle volume mute button"
     anchors.fill: parent
     cursorShape: Qt.PointingHandCursor
     onClicked: volume.sink.audio.muted = !volume.sink.audio.muted
