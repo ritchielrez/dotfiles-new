@@ -15,6 +15,7 @@ python = "latest"
 "pipx:trash-cli" = "latest"
 "cargo:just" = "latest"
 node = "latest"
+"cargo:zellij" = "latest"
 
 [settings.cargo]
 binstall = true
