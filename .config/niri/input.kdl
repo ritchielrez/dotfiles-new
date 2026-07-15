@@ -14,6 +14,7 @@ input {
       // If this section is empty, niri will fetch xkb settings
       // from org.freedesktop.locale1. You can control these using
       // localectl set-x11-keymap.
+      options "ctrl:nocaps"
     }
 
     repeat-rate 75
